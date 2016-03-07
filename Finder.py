@@ -149,11 +149,10 @@ fileObjects = []
 head = BinaryTree(0,None,None,None)
 
 def main():
-    #start = time.clock()
     #See if two arguments are supplied, else abort
     parser = argparse.ArgumentParser()
     parser.add_argument('InputDirectory',metavar='d', help='The directory of where the logs files are located.')
-    parser.add_argument('OutputDirectory',metavar='o', help='The desired output directory along with desired output csv file name.')
+    parser.add_argument('OutputDirectory',metavar='o', help='The desired output directory along with desired output csv file name.')#example: python3 Finder.py /Desktop/Python Logs.csv
     args = parser.parse_args()
     
     d = str(sys.argv[1])
@@ -186,8 +185,7 @@ def main():
     print("A new csv file has been made")
     report.close()
  
-#end = time.clock()
-#print(end-start)
+
 #csv creator
 def csvCreator(currentWorkingDirectory,desiredDirectory,reportName):
     changeDirectoryAnywhere(desiredDirectory)
