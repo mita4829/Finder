@@ -12,56 +12,12 @@
 #Version 2.1.1 Handles two arguments in the command line
 #1/12/16
 
-#Version 2.2 Bug fix where recursively locating logs can lead to improper parent folder naming, fixed through sanitation of the directory name.
-<<<<<<< HEAD
-#1/25/16 
-=======
+#Version 2.2 Bug fix where recursively locating log can lead to improper parent naming. This was fix through sanitation of the directory name.
 #1/25/16
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
-
-#Version 3.0 New binary search tree data structure for optimized search speed when checking for duplications in O(log n) time.
-#2/9/16
-
-#Version 3.1 argparse library for handling command line arguments.
 
 import os
 import sys
 import csv
-<<<<<<< HEAD
-import argparse
-#import time
-
-=======
-#import time
-import argparse
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
-
-#Note: All leafs are nodes but not all nodes are leafs. Leafs do not have any children and are pointing to null or "none" for both left and right children.
-
-#Nodes for the tree are in the format of (IDnum,Name,leftChild,rightChild)
-class BinaryTree(object):
-    def __init__(self, value=None, id=None, leftLeaf=0, rightLeaf=0):
-        self.value = value
-        self.id = id
-        self.leftLeaf = leftLeaf
-        self.rightLeaf = rightLeaf
-        self.listOfFileNames = []
-    def getValue(self):
-        return self.value
-    def getLeftLeaf(self):
-        return self.leftLeaf
-    def getRightLeaf(self):
-        return self.rightLeaf
-    def getID(self):
-        return self.id
-    def setValue(self,nodeValue):
-        self.value = nodeValue
-    def setID(self,idValue):
-        self.id = idValue
-    def setLeftLeaf(self,leftLeaf):
-        self.leftLeaf = leftLeaf
-    def setRightLeaf(self,rightLeaf):
-        self.rightLeaf = rightLeaf
 
 class Folder:
     def __init__(self,name,homeDirectory):
@@ -119,12 +75,13 @@ class File:
                 Bad = lineOfData[badLocation:badComma]
                 #prevent duplication
                 checkForDuplicationLine = (self.parentName+" "+self.name+" "+trackSide+" "+Track+" "+Sector+" "+Bad)
-                
-                leaf = createNewNode(checkForDuplicationLine)#create a new node
-                if(appendLeaf(head,leaf)):#if true, that means the string does not exist.
+                found = False
+                for j in range(0,len(reportStrings)):
+                    if(checkForDuplicationLine == reportStrings[j]):
+                        found = True
+                if(not found):
+                    reportStrings.append(checkForDuplicationLine)
                     csvDataTransfer(object,self.parentName,self.name,trackSide,Track,Sector,Bad)
-       
-        
             #Lower line
             if(badSectorExist and (pageOfdata[i+1].find("<error>") != -1)):
                 lineOfData = pageOfdata[i+1]
@@ -147,34 +104,31 @@ class File:
                 badComma = lineOfData.find(",",badLocation)
                 Bad = lineOfData[badLocation:badComma]
                 checkForDuplicationLine = (self.parentName+" "+self.name+" "+trackSide+" "+Track+" "+Sector+" "+Bad)
-                leaf = createNewNode(checkForDuplicationLine)#create a new node
-                if(appendLeaf(head,leaf)):#if true, that means the string does not exist.
+                found = False
+                for j in range(0,len(reportStrings)):
+                    if(checkForDuplicationLine == reportStrings[j]):
+                        found = True
+                if(not found):
+                    reportStrings.append(checkForDuplicationLine)
                     csvDataTransfer(object,self.parentName,self.name,trackSide,Track,Sector,Bad)
-
         token.close()
 
 folderObjects = []
 fileObjects = []
-head = BinaryTree(0,None,None,None)
+reportStrings = []
 
 def main():
-<<<<<<< HEAD
     #See if two arguments are supplied, else abort
-    parser = argparse.ArgumentParser()
-    parser.add_argument('InputDirectory',metavar='d', help='The directory of where the logs files are located.')
-    parser.add_argument('OutputDirectory',metavar='o', help='The desired output directory along with desired output csv file name.')#example: python3 Finder.py /Desktop/Python Logs.csv
-=======
-    #start = time.clock()
-    #See if two arguments are supplied, else abort
-    parser = argparse.ArgumentParser()
-    parser.add_argument('InputDirectory',metavar='d', help='The directory of where the logs files are located.')
-    parser.add_argument('OutputDirectory',metavar='o', help='The desired output directory along with desired output csv file name.')
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
-    args = parser.parse_args()
+    try:
+        d = str(sys.argv[1])
+        o = str(sys.argv[2])
     
-    d = str(sys.argv[1])
-    o = str(sys.argv[2])
-    
+    except:
+        print("\nHow to run: python3 Finder.py -d -o\n")
+        print("-d Is the directory of where the folder of logs files are located. \n Example: '/Users/Guest/Desktop/FolderOfLogs' \n")
+        print("-o Is the output directory and the desired name. \n Example: '/Users/Guest/Desktop/MyReport.csv' This will place the completed file on the Desktop and it will be called MyReport.csv\n")
+        checkForHelp()
+        sys.exit("\nScript aborted")
     dropOffDirectory = findDropOffDirectory(o)
     reportName = checkSecondArgu(o)
     checkFirstArgu(d)
@@ -185,29 +139,24 @@ def main():
         objectFolder()
         print("Initialization successful\n")
     except:
-        print("Initialization of folders and/or files failed. A possible cause for failure could be the script was pointed to the root directory of the computer in which the maximum recursion depth was exceeded while looking for logs. This is rare even if it's the case.")
-        sys.exit()
+        print("Initialization of folders and/or files failed")
 
     print("Extracting data from logs...")
 
+    try:
+        object = csvCreator(getCurrentDirectory(),dropOffDirectory,reportName)
+        report = open(reportName, "r")
+        dataObject = report.readlines()
+        for i in range(0,len(fileObjects)):
+            if((fileObjects[i].name).find(".log") != -1):
+                fileObjects[i].extractData(object,dataObject)
 
-    object = csvCreator(getCurrentDirectory(),dropOffDirectory,reportName)
-    report = open(reportName, "r")
-    dataObject = report.readlines()
-    for i in range(0,len(fileObjects)):
-        if((fileObjects[i].name).find(".log") != -1):
-            fileObjects[i].extractData(object,dataObject)
-
-    print("Extraction successful")
-    print("A new csv file has been made")
-    report.close()
- 
-<<<<<<< HEAD
-
-=======
-#end = time.clock()
-#print(end-start)
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
+        print("Extraction successful")
+        print("A new csv file has been made")
+        report.close()
+    except:
+        print("Extraction failed")
+    printString()
 #csv creator
 def csvCreator(currentWorkingDirectory,desiredDirectory,reportName):
     changeDirectoryAnywhere(desiredDirectory)
@@ -276,11 +225,13 @@ def objectFile(directory):
             objectFolder()#allow recursion
     returnToParent()
 
-
 #Add data to the csv file
 def csvDataTransfer(object,parentName,name,trackSide,Track,Sector,Bad):
     object.writerow([parentName,name,trackSide,Track,Sector,Bad])
 
+#check if user needs help
+def checkForHelp():
+    print("Finder.py produces a new .csv file and populates the file with data given log files. How to run the script. The script takes two arguments, the first, the directory of where the folder of log files are at. The second argument is where to place the newly made .csv file and what to name it. By defualt, it will be called 'Report.csv' unless specified.\n The arguments can handle both absolute directories and relative directories.\nExample: If you are on the Desktop where the Finder.py script is and there is a folder of logs on the Desktop called 'folderLogs', you can run the script by typing 'python3 Finder.py folderLogs MyReport.csv' in the shell.\n For the second argument, likewise to the first, it can take absolute and relative directories. If no directory is given, the placement of the .csv file will be the first argument, but, a name of what to call the .csv file MUST be given.\n Example: Consider the first example environment, when the script is finished, the new .csv file will be placed in the 'folderLogs' folder and it will be called 'newCSV.csv' by running this command in the shell 'python3 Finder.py folderLogs folderLogs/newCSV.csv'.")
 
 #check first argument to see if it's an absolute or relative directory
 def checkFirstArgu(d):
@@ -293,54 +244,6 @@ def checkFirstArgu(d):
     except:
         print("Unable to navigate to "+d+" script aborted")
         sys.exit()
-
-
-#Function to append a leaf to the tree. Returns false if a certain string already exist, true if it's new.
-def appendLeaf(headNode,leaf):
-    if(headNode.getID() == None):
-        headNode = leaf
-        return True
-    if(leaf.getValue() > headNode.getValue()):
-        if(headNode.getRightLeaf() == None):
-            headNode.setRightLeaf(leaf)
-            return True
-        headNode = headNode.getRightLeaf() #If the current node's right child is not null, recursively call the function by passing in head's right child.
-        return appendLeaf(headNode,leaf)
-    elif(leaf.getValue() < headNode.getValue()):
-        if(headNode.getLeftLeaf() == None):
-            headNode.setLeftLeaf(leaf)
-            return True
-        headNode = headNode.getLeftLeaf() #If the current node's left child isn't null, recursively call the function with head's left child.
-        return appendLeaf(headNode,leaf)
-    else:
-        if(leaf.getValue() == headNode.getValue() and leaf.getID() != headNode.getID()):
-            for i in range(0,len(headNode.listOfFileNames)):
-                if(headNode.listOfFileNames[i].getID() == leaf.getID()):
-                    return False
-            headNode.listOfFileNames.append(leaf) #If appending and a collision happend, add the node to the array
-            return True
-        else:
-            return False
-
-
-#Function for creating new nodes. The function first takes a string, perhaps from a file and hashes it for an integer from calling valueFunction(s). With it, a new node object will be made and will be appened to the tree.
-def createNewNode(input):
-    hashValue = hashFunction(input)
-    node = BinaryTree(hashValue,input,None,None)
-    if(head.getID() == None):
-        head.setID(node.getID())
-    return node
-
-
-#Hash function. Equation: Sum up each char by their ASCII value and each char will be multipled by the current for loop index to make the hash as unique as possible even if two strings differ just from one char.
-def hashFunction(input):
-    sum = 0
-    for i in range(0,len(input)):
-        sum = sum+ord(input[i])*i
-    return sum
-
-
-
 
 #check second argument to see if it's an absolute or relative directory and what to name the file
 def checkSecondArgu(o):
@@ -400,9 +303,6 @@ def sanitizeLocalString(input):
             last = i
     return input[last+1:len(input)]
 
-
-
-
 #debugging functions
 def printFolderObjects():
     print("----------Debug----------")
@@ -419,20 +319,5 @@ def printString():
     for i in range(0,len(reportStrings)):
         print(reportStrings[i])
     print("-------------------------")
-#Function for printing the content of the tree in-order given the head node. If a node has no collisions, it will only print out the string name of the node, otherwise, it will loop through the node's array and print out all names. A node with the same hash value in an array will be denoted with a ++
-def printTree(head):
-    if(head == None):
-        return
-    printTree(head.getLeftLeaf())
-    if(len(head.listOfFileNames) == 0):
-        print(str(head.getID())+" ")
-    else:
-        print(str(head.getID())+" ")
-        for i in range(0,len(head.listOfFileNames)):
-            print(str(head.listOfFileNames[i].getID())+" "+"++")
-    printTree(head.getRightLeaf())
-
-
-
 
 main()

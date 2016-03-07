@@ -1,0 +1,15 @@
+./dtc -l15 -f/home/bcadmin/Desktop/vasulka_floppies_richard/data/backup_stroom_2/track -i0 -f/home/bcadmin/Desktop/vasulka_floppies_richard/data/backup_stroom_2.img -i9 -r5 -d0 -p -e83 -t1 -dd0
+v2.2 Jun 05 2007 10:59:13
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:162)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:272)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.readLine(BufferedReader.java:317)
+	at java.io.BufferedReader.readLine(BufferedReader.java:382)
+	at com.kryoflux.ui.util.processmonitor.InputStreamConsumer.run(Process.scala:90)
+Process finished abnormally

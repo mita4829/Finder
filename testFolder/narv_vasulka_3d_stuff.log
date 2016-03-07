@@ -1,0 +1,2448 @@
+./dtc -l15 -f/home/bcadmin/Desktop/vasulka_floppies_richard/data/3d_stuff/track -i0 -f/home/bcadmin/Desktop/vasulka_floppies_richard/data/3d_stuff.img -g0 -z0 -i13 -r5 -d0 -p -e80 -t1 -dd0
+00040b89: status=0
+00040b9d: status=0
+00040bb1: reset=0
+00041003: info=1, name=KryoFlux DiskSystem, version=2.20s, date=Nov 23 2013, time=19:50:35
+00041017: info=2, hwid=1, hwrv=1, sck=24027428.5714285, ick=3003428.5714285625, wb=32768, wa=64, wq=8, wt=65535, wm=26
+0004102b: device=0
+0004103f: density=0
+00041053: min_track=0
+00041067: max_track=83
+KryoFlux DiskTool Console, v2.6, uiv.1, Dec 31 2014, 17:40:27
+(c) 2009-2014 KryoFlux Products & Services Ltd.
+Developed by The Software Preservation Society, www.softpres.org
+Licensed for private, non-commercial use only.
+0004107b: motor=1
+000413fc: side=0
+00041410: track=0
+00041424: stream=1
+000417fe: stream=0
+00.0    : frev: 25223, drift: 0.516 us, tfer: 185271 B/s, rpm: 358.524
+00.0    : band: 1.608 us, 4.476 us, 5.635 us?, 13.069 us?, 14.474 us
+00.0    : base: 1.837 us [41.868%], band: 3.675 us
+00.0    : DEC RX01: <unformatted>
+00041826: motor=1
+0004183a: side=1
+0004184f: track=0
+00041863: stream=1
+00041ca7: stream=0
+00.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.485
+00.1    : No flux reversal found
+00041cbb: motor=1
+00041ccf: side=1
+00041ce3: track=0
+00041cf7: motor=1
+00041d0b: side=1
+00041d1f: track=1
+00041d8b: motor=1
+00041d9f: side=1
+00041db3: track=0
+00041e1f: stream=1
+000421fc: stream=0
+00.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.501
+00.1    : No flux reversal found
+00.1    : Read operation failed
+00042210: motor=1
+00042224: side=0
+00042239: track=1
+000422a5: stream=1
+000426aa: stream=0
+01.0    : frev: 25223, drift: 0.591 us, tfer: 185062 B/s, rpm: 358.487
+01.0    : band: 1.669 us, 4.576 us, 5.554 us, 14.222 us, 15.415 us?
+01.0    : base: 1.923 us [46.158%], band: 3.846 us
+01.0    : DEC RX01: <unformatted>
+000426d2: motor=1
+000426e6: side=1
+000426fb: track=1
+0004270f: stream=1
+00042b53: stream=0
+01.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.530
+01.1    : No flux reversal found
+00042b67: motor=1
+00042b7b: side=1
+00042b8f: track=0
+00042bfb: motor=1
+00042c0f: side=1
+00042c23: track=2
+00042c99: motor=1
+00042cad: side=1
+00042cc1: track=1
+00042d2d: stream=1
+00043153: stream=0
+01.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.494
+01.1    : No flux reversal found
+01.1    : Read operation failed
+00043167: motor=1
+0004317b: side=0
+00043190: track=2
+000431fc: stream=1
+00043601: stream=0
+02.0    : frev: 25146, drift: 0.108 us, tfer: 184644 B/s, rpm: 358.497
+02.0    : band: 1.663 us, 4.675 us, 5.818 us, 13.258 us?, 14.619 us?
+02.0    : base: 1.989 us [49.469%], band: 3.979 us
+02.0    : DEC RX01: <unformatted>
+00043629: motor=1
+0004363d: side=1
+00043652: track=2
+00043666: stream=1
+00043aa9: stream=0
+02.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.519
+02.1    : No flux reversal found
+00043abd: motor=1
+00043ad1: side=1
+00043ae5: track=0
+00043b5b: motor=1
+00043b6f: side=1
+00043b83: track=3
+00043c02: motor=1
+00043c16: side=1
+00043c2a: track=2
+00043c96: stream=1
+000440aa: stream=0
+02.1    : No flux reversal found
+02.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.483
+02.1    : Read operation failed
+000440be: motor=1
+000440d2: side=0
+000440e7: track=3
+00044153: stream=1
+00044558: stream=0
+03.0    : frev: 25225, drift: 0.599 us, tfer: 184644 B/s, rpm: 358.505
+03.0    : band: 1.675 us, 4.360 us?, 5.562 us, 12.958 us?, 14.364 us
+03.0    : base: 1.948 us [47.398%], band: 3.896 us
+03.0    : DEC RX01: <unformatted>
+00044580: motor=1
+00044594: side=1
+000445a9: track=3
+000445bd: stream=1
+00044a00: stream=0
+03.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.524
+03.1    : No flux reversal found
+00044a14: motor=1
+00044a28: side=1
+00044a3c: track=0
+00044abb: motor=1
+00044acf: side=1
+00044ae3: track=4
+00044b6b: motor=1
+00044b7f: side=1
+00044b93: track=3
+00044bff: stream=1
+00045001: stream=0
+03.1    : No flux reversal found
+03.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.478
+03.1    : Read operation failed
+00045015: motor=1
+00045029: side=0
+0004503e: track=4
+000450aa: stream=1
+000454af: stream=0
+04.0    : frev: 25057, drift: 0.350 us, tfer: 184436 B/s, rpm: 358.502
+04.0    : band: 1.644 us, 4.394 us, 5.690 us, 13.258 us?, 14.656 us
+04.0    : base: 1.907 us [45.326%], band: 3.813 us
+04.0    : DEC RX01: <unformatted>
+000454d7: motor=1
+000454eb: side=1
+00045500: track=4
+00045514: stream=1
+00045958: stream=0
+04.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.521
+04.1    : No flux reversal found
+0004596c: motor=1
+00045980: side=1
+00045994: track=0
+00045a1c: motor=1
+00045a30: side=1
+00045a44: track=5
+00045ad5: motor=1
+00045ae9: side=1
+00045afd: track=4
+00045b69: stream=1
+00045f58: stream=0
+04.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.477
+04.1    : No flux reversal found
+04.1    : Read operation failed
+00045f6c: motor=1
+00045f80: side=0
+00045f95: track=5
+00046001: stream=1
+00046407: stream=0
+05.0    : frev: 25224, drift: 1.016 us, tfer: 185271 B/s, rpm: 358.505
+05.0    : band: 1.728 us, 4.367 us, 5.540 us?, 13.256 us?, 14.612 us
+05.0    : base: 1.803 us [40.150%], band: 3.606 us
+05.0    : DEC RX01: <unformatted>
+0004642f: motor=1
+00046443: side=1
+00046458: track=5
+0004646c: stream=1
+000468ae: stream=0
+05.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.518
+05.1    : No flux reversal found
+000468c2: motor=1
+000468d6: side=1
+000468ea: track=0
+0004697b: motor=1
+0004698f: side=1
+000469a3: track=6
+00046a3d: motor=1
+00046a51: side=1
+00046a65: track=5
+00046ad1: stream=1
+00046eaf: stream=0
+05.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.467
+05.1    : No flux reversal found
+05.1    : Read operation failed
+00046ec3: motor=1
+00046ed7: side=0
+00046eec: track=6
+00046f58: stream=1
+0004735e: stream=0
+06.0    : frev: 25361, drift: 0.075 us, tfer: 185271 B/s, rpm: 358.515
+06.0    : band: 1.700 us, 4.549 us, 5.744 us, 12.957 us?, 14.880 us
+06.0    : base: 1.862 us [43.112%], band: 3.724 us
+06.0    : DEC RX01: <unformatted>
+00047386: motor=1
+0004739a: side=1
+000473af: track=6
+000473c3: stream=1
+00047806: stream=0
+06.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.503
+06.1    : No flux reversal found
+0004781a: motor=1
+0004782e: side=1
+00047842: track=0
+000478dc: motor=1
+000478f0: side=1
+00047904: track=7
+000479a8: motor=1
+000479bc: side=1
+000479d0: track=6
+00047a3c: stream=1
+00047e06: stream=0
+06.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.467
+06.1    : No flux reversal found
+06.1    : Read operation failed
+00047e1a: motor=1
+00047e2e: side=0
+00047e43: track=7
+00047eaf: stream=1
+000482b5: stream=0
+07.0    : frev: 25208, drift: 0.125 us, tfer: 184853 B/s, rpm: 358.506
+07.0    : band: 1.675 us, 4.820 us, 6.238 us?, 13.061 us?, 14.201 us?
+07.0    : base: 1.955 us [47.740%], band: 3.910 us
+07.0    : DEC RX01: <unformatted>
+000482dd: motor=1
+000482f1: side=1
+00048306: track=7
+0004831a: stream=1
+0004875d: stream=0
+07.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.504
+07.1    : No flux reversal found
+00048771: motor=1
+00048785: side=1
+00048799: track=0
+0004883d: motor=1
+00048851: side=1
+00048865: track=8
+00048912: motor=1
+00048926: side=1
+0004893a: track=7
+000489a6: stream=1
+00048d5e: stream=0
+07.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.461
+07.1    : No flux reversal found
+07.1    : Read operation failed
+00048d72: motor=1
+00048d86: side=0
+00048d9b: track=8
+00048e07: stream=1
+0004920c: stream=0
+08.0    : frev: 25289, drift: 0.674 us, tfer: 185062 B/s, rpm: 358.517
+08.0    : band: 1.666 us, 4.377 us, 5.799 us, 13.059 us?, 14.075 us
+08.0    : base: 1.914 us [45.691%], band: 3.828 us
+08.0    : DEC RX01: <unformatted>
+00049234: motor=1
+00049248: side=1
+0004925d: track=8
+00049271: stream=1
+000496b4: stream=0
+08.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.505
+08.1    : No flux reversal found
+000496c8: motor=1
+000496dc: side=1
+000496f0: track=0
+0004979d: motor=1
+000497b1: side=1
+000497c5: track=9
+0004987b: motor=1
+0004988f: side=1
+000498a3: track=8
+0004990f: stream=1
+00049d5f: stream=0
+08.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.517
+08.1    : No flux reversal found
+08.1    : Read operation failed
+00049d73: motor=1
+00049d87: side=0
+00049d9c: track=9
+00049e08: stream=1
+0004a20c: stream=0
+09.0    : frev: 25439, drift: 0.483 us, tfer: 186113 B/s, rpm: 358.466
+09.0    : band: 1.666 us, 4.723 us, 6.192 us, 14.200 us?, 15.284 us?
+09.0    : base: 1.834 us [41.703%], band: 3.668 us
+09.0    : DEC RX01: <unformatted>
+0004a234: motor=1
+0004a248: side=1
+0004a25d: track=9
+0004a271: stream=1
+0004a6b6: stream=0
+09.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.416
+09.1    : No flux reversal found
+0004a6ca: motor=1
+0004a6de: side=1
+0004a6f2: track=0
+0004a7a8: motor=1
+0004a7bc: side=1
+0004a7d0: track=10
+0004a88f: motor=1
+0004a8a3: side=1
+0004a8b7: track=9
+0004a923: stream=1
+0004ad62: stream=0
+09.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.376
+09.1    : No flux reversal found
+09.1    : Read operation failed
+0004ad76: motor=1
+0004ad8a: side=0
+0004ad9f: track=10
+0004ae0b: stream=1
+0004b211: stream=0
+10.0    : frev: 54455, drift: 0.674 us, tfer: 298120 B/s, rpm: 358.388
+10.0    : band: 2.395 us, 4.826 us, 5.869 us, 7.085 us?, 9.403 us?
+10.0    : base: 2.011 us [99.578%], band: 1.997 us, 4.022 us
+10.0    : DEC RX01: OK, trk: 010, sec: 26
+0004b24d: motor=1
+0004b261: side=1
+0004b276: track=10
+0004b28a: stream=1
+0004b6ba: stream=0
+10.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.333
+10.1    : No flux reversal found
+0004b6ce: motor=1
+0004b6e2: side=1
+0004b6f6: track=0
+0004b7b5: motor=1
+0004b7c9: side=1
+0004b7dd: track=11
+0004b8a6: motor=1
+0004b8ba: side=1
+0004b8ce: track=10
+0004b93a: stream=1
+0004bd67: stream=0
+10.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.226
+10.1    : No flux reversal found
+10.1    : Read operation failed
+0004bd7b: motor=1
+0004bd8f: side=0
+0004bda4: track=11
+0004be10: stream=1
+0004c216: stream=0
+11.0    : frev: 60605, drift: 0.200 us, tfer: 345163 B/s, rpm: 358.326
+11.0    : band: 2.398 us, 3.858 us?, 4.824 us, 5.531 us?, 8.600 us?
+11.0    : base: 2.011 us [99.631%], band: 1.999 us, 4.021 us
+11.0    : DEC RX01: OK, trk: 011, sec: 26
+0004c23f: motor=1
+0004c253: side=1
+0004c268: track=11
+0004c27c: stream=1
+0004c6be: stream=0
+11.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.343
+11.1    : No flux reversal found
+0004c6d2: motor=1
+0004c6e6: side=1
+0004c6fa: track=0
+0004c7c3: motor=1
+0004c7d7: side=1
+0004c7eb: track=12
+0004c8bd: motor=1
+0004c8d1: side=1
+0004c8e5: track=11
+0004c951: stream=1
+0004cd6a: stream=0
+11.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.268
+11.1    : No flux reversal found
+11.1    : Read operation failed
+0004cd7f: motor=1
+0004cd93: side=0
+0004cda8: track=12
+0004ce14: stream=1
+0004d219: stream=0
+12.0    : frev: 60830, drift: 0.316 us, tfer: 346624 B/s, rpm: 358.306
+12.0    : band: 1.597 us?, 2.402 us, 3.789 us?, 4.828 us, 5.418 us?
+12.0    : base: 2.012 us [99.569%], band: 2.002 us, 4.024 us
+12.0    : DEC RX01: OK, trk: 012, sec: 26
+0004d255: motor=1
+0004d269: side=1
+0004d27e: track=12
+0004d292: stream=1
+0004d6c3: stream=0
+12.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.332
+12.1    : No flux reversal found
+0004d6d7: motor=1
+0004d6eb: side=1
+0004d6ff: track=0
+0004d7d1: motor=1
+0004d7e5: side=1
+0004d7f9: track=13
+0004d8d4: motor=1
+0004d8e8: side=1
+0004d8fc: track=12
+0004d968: stream=1
+0004dd6f: stream=0
+12.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.189
+12.1    : No flux reversal found
+12.1    : Read operation failed
+0004dd83: motor=1
+0004dd97: side=0
+0004ddac: track=13
+0004de18: stream=1
+0004e21d: stream=0
+13.0    : frev: 59592, drift: 0.916 us, tfer: 339089 B/s, rpm: 358.202
+13.0    : band: 2.402 us, 3.677 us?, 4.832 us, 5.853 us?
+13.0    : base: 2.013 us [99.534%], band: 2.001 us, 4.027 us
+13.0    : DEC RX01: OK, trk: 013, sec: 26
+0004e259: motor=1
+0004e26d: side=1
+0004e282: track=13
+0004e296: stream=1
+0004e6c7: stream=0
+13.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.311
+13.1    : No flux reversal found
+0004e6db: motor=1
+0004e6ef: side=1
+0004e703: track=0
+0004e7de: motor=1
+0004e7f2: side=1
+0004e806: track=14
+0004e8ea: motor=1
+0004e8fe: side=1
+0004e912: track=13
+0004e97e: stream=1
+0004ed74: stream=0
+13.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.258
+13.1    : No flux reversal found
+13.1    : Read operation failed
+0004ed88: motor=1
+0004ed9c: side=0
+0004edb1: track=14
+0004ee1d: stream=1
+0004f222: stream=0
+14.0    : frev: 54961, drift: 0.425 us, tfer: 312623 B/s, rpm: 358.291
+14.0    : band: 2.401 us, 3.091 us?, 3.838 us?, 4.834 us, 5.888 us?
+14.0    : base: 2.014 us [99.519%], band: 2.001 us, 4.028 us
+14.0    : DEC RX01: OK, trk: 014, sec: 26
+0004f24a: motor=1
+0004f25e: side=1
+0004f273: track=14
+0004f287: stream=1
+0004f6cc: stream=0
+14.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.331
+14.1    : No flux reversal found
+0004f6e0: motor=1
+0004f6f4: side=1
+0004f708: track=0
+0004f7ec: motor=1
+0004f800: side=1
+0004f814: track=15
+0004f901: motor=1
+0004f915: side=1
+0004f929: track=14
+0004f995: stream=1
+0004fd79: stream=0
+14.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.289
+14.1    : No flux reversal found
+14.1    : Read operation failed
+0004fd8d: motor=1
+0004fda1: side=0
+0004fdb6: track=15
+0004fe22: stream=1
+00050228: stream=0
+15.0    : frev: 59178, drift: 0.092 us, tfer: 338388 B/s, rpm: 358.266
+15.0    : band: 2.399 us, 4.828 us
+15.0    : base: 2.012 us [99.604%], band: 2.000 us, 4.023 us
+15.0    : DEC RX01: OK, trk: 015, sec: 26
+00050264: motor=1
+00050278: side=1
+0005028d: track=15
+000502a1: stream=1
+000506d1: stream=0
+15.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.312
+15.1    : No flux reversal found
+000506e5: motor=1
+000506f9: side=1
+0005070d: track=0
+000507fa: motor=1
+0005080e: side=1
+00050822: track=16
+00050919: motor=1
+0005092d: side=1
+00050941: track=15
+000509ad: stream=1
+00050d7d: stream=0
+15.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.211
+15.1    : No flux reversal found
+15.1    : Read operation failed
+00050d91: motor=1
+00050da5: side=0
+00050dba: track=16
+00050e26: stream=1
+0005122c: stream=0
+16.0    : frev: 59375, drift: 0.499 us, tfer: 338738 B/s, rpm: 358.292
+16.0    : band: 1.570 us?, 2.399 us, 3.847 us?, 4.827 us, 5.590 us?
+16.0    : base: 2.012 us [99.581%], band: 1.999 us, 4.024 us
+16.0    : DEC RX01: OK, trk: 016, sec: 26
+00051268: motor=1
+0005127c: side=1
+00051291: track=16
+000512a5: stream=1
+000516d5: stream=0
+16.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.318
+16.1    : No flux reversal found
+000516e9: motor=1
+000516fd: side=1
+00051711: track=0
+00051808: motor=1
+0005181c: side=1
+00051830: track=17
+00051930: motor=1
+00051944: side=1
+00051958: track=16
+000519c4: stream=1
+00051d82: stream=0
+16.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.293
+16.1    : No flux reversal found
+16.1    : Read operation failed
+00051d96: motor=1
+00051daa: side=0
+00051dbf: track=17
+00051e2b: stream=1
+00052230: stream=0
+17.0    : frev: 57177, drift: 0.117 us, tfer: 325390 B/s, rpm: 358.231
+17.0    : band: 2.399 us, 3.850 us?, 4.827 us, 5.278 us?, 5.722 us?
+17.0    : base: 2.012 us [99.593%], band: 1.999 us, 4.023 us
+17.0    : DEC RX01: OK, trk: 017, sec: 26
+0005226c: motor=1
+00052280: side=1
+00052295: track=17
+000522a9: stream=1
+000526da: stream=0
+17.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.296
+17.1    : No flux reversal found
+000526ee: motor=1
+00052702: side=1
+00052716: track=0
+00052816: motor=1
+0005282a: side=1
+0005283e: track=18
+00052947: motor=1
+0005295b: side=1
+0005296f: track=17
+000529db: stream=1
+00052d87: stream=0
+17.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.243
+17.1    : No flux reversal found
+17.1    : Read operation failed
+00052d9b: motor=1
+00052daf: side=0
+00052dc4: track=18
+00052e30: stream=1
+00053236: stream=0
+18.0    : frev: 62109, drift: 0.166 us, tfer: 353736 B/s, rpm: 358.275
+18.0    : band: 2.397 us, 3.763 us?, 4.824 us, 5.429 us?, 6.141 us?
+18.0    : base: 2.011 us [99.585%], band: 1.998 us, 4.023 us
+18.0    : DEC RX01: OK, trk: 018, sec: 26
+00053272: motor=1
+00053286: side=1
+0005329b: track=18
+000532af: stream=1
+000536de: stream=0
+18.1    : No flux reversal found
+18.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.316
+000536f2: motor=1
+00053706: side=1
+0005371a: track=0
+00053823: motor=1
+00053837: side=1
+0005384b: track=19
+0005395d: motor=1
+00053971: side=1
+00053985: track=18
+000539f1: stream=1
+00053e36: stream=0
+18.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.252
+18.1    : No flux reversal found
+18.1    : Read operation failed
+00053e4a: motor=1
+00053e5e: side=0
+00053e73: track=19
+00053edf: stream=1
+000542e5: stream=0
+19.0    : frev: 58348, drift: 0.275 us, tfer: 331986 B/s, rpm: 358.297
+19.0    : band: 2.400 us, 3.175 us?, 4.831 us
+19.0    : base: 2.013 us [99.561%], band: 2.000 us, 4.026 us
+19.0    : DEC RX01: OK, trk: 019, sec: 26
+0005430d: motor=1
+00054321: side=1
+00054336: track=19
+0005434a: stream=1
+0005478e: stream=0
+19.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.341
+19.1    : No flux reversal found
+000547a2: motor=1
+000547b6: side=1
+000547ca: track=0
+000548dc: motor=1
+000548f0: side=1
+00054904: track=20
+00054a1f: motor=1
+00054a33: side=1
+00054a47: track=19
+00054ab3: stream=1
+00054ee5: stream=0
+19.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.279
+19.1    : No flux reversal found
+19.1    : Read operation failed
+00054ef9: motor=1
+00054f0d: side=0
+00054f22: track=20
+00054f8e: stream=1
+00055393: stream=0
+20.0    : frev: 59643, drift: 0.150 us, tfer: 339792 B/s, rpm: 358.318
+20.0    : band: 2.402 us, 3.283 us?, 3.787 us?, 4.829 us, 5.699 us?
+20.0    : base: 2.012 us [99.580%], band: 2.002 us, 4.024 us, 4.398 us?
+20.0    : DEC RX01: OK, trk: 020, sec: 26
+000553bb: motor=1
+000553cf: side=1
+000553e4: track=20
+000553f8: stream=1
+0005583c: stream=0
+20.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.325
+20.1    : No flux reversal found
+00055850: motor=1
+00055864: side=1
+00055878: track=0
+00055993: motor=1
+000559a7: side=1
+000559bb: track=21
+00055ae0: motor=1
+00055af4: side=1
+00055b08: track=20
+00055b74: stream=1
+00055f94: stream=0
+20.1    : No flux reversal found
+20.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.283
+20.1    : Read operation failed
+00055fa8: motor=1
+00055fbc: side=0
+00055fd1: track=21
+0005603d: stream=1
+00056442: stream=0
+21.0    : frev: 59947, drift: 0.108 us, tfer: 342277 B/s, rpm: 358.310
+21.0    : band: 2.403 us, 3.405 us?, 4.135 us?, 4.826 us, 5.616 us?
+21.0    : base: 2.011 us [99.599%], band: 2.003 us, 4.021 us
+21.0    : DEC RX01: OK, trk: 021, sec: 26
+0005647e: motor=1
+00056492: side=1
+000564a7: track=21
+000564bb: stream=1
+000568ec: stream=0
+21.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.336
+21.1    : No flux reversal found
+00056900: motor=1
+00056914: side=1
+00056928: track=0
+00056a4d: motor=1
+00056a61: side=1
+00056a75: track=22
+00056ba3: motor=1
+00056bb7: side=1
+00056bcb: track=21
+00056c37: stream=1
+00057043: stream=0
+21.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.288
+21.1    : No flux reversal found
+21.1    : Read operation failed
+00057057: motor=1
+0005706b: side=0
+00057080: track=22
+000570ec: stream=1
+000574f3: stream=0
+22.0    : frev: 62832, drift: 0.433 us, tfer: 357598 B/s, rpm: 358.325
+22.0    : band: 2.402 us, 3.394 us?, 4.829 us
+22.0    : base: 2.012 us [99.575%], band: 2.002 us, 4.024 us
+22.0    : DEC RX01: OK, trk: 022, sec: 26
+0005751b: motor=1
+0005752f: side=1
+00057544: track=22
+00057558: stream=1
+0005799a: stream=0
+22.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.345
+22.1    : No flux reversal found
+000579ae: motor=1
+000579c2: side=1
+000579d6: track=0
+00057b04: motor=1
+00057b18: side=1
+00057b2c: track=23
+00057c63: motor=1
+00057c77: side=1
+00057c8b: track=22
+00057cf7: stream=1
+000580f2: stream=0
+22.1    : No flux reversal found
+22.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.297
+22.1    : Read operation failed
+00058106: motor=1
+0005811a: side=0
+0005812f: track=23
+0005819b: stream=1
+000585a1: stream=0
+23.0    : frev: 60843, drift: 0.524 us, tfer: 345527 B/s, rpm: 358.321
+23.0    : band: 2.399 us, 4.831 us
+23.0    : base: 2.013 us [99.561%], band: 2.000 us, 4.026 us
+23.0    : DEC RX01: OK, trk: 023, sec: 26
+000585dd: motor=1
+000585f1: side=1
+00058606: track=23
+0005861a: stream=1
+00058a49: stream=0
+23.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.342
+23.1    : No flux reversal found
+00058a5d: motor=1
+00058a71: side=1
+00058a85: track=0
+00058bbc: motor=1
+00058bd0: side=1
+00058be4: track=24
+00058d24: motor=1
+00058d38: side=1
+00058d4c: track=23
+00058db8: stream=1
+000591a1: stream=0
+23.1    : No flux reversal found
+23.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.280
+23.1    : Read operation failed
+000591b5: motor=1
+000591c9: side=0
+000591de: track=24
+0005924a: stream=1
+0005964f: stream=0
+24.0    : frev: 58189, drift: 0.166 us, tfer: 330868 B/s, rpm: 358.308
+24.0    : band: 2.400 us, 4.834 us
+24.0    : base: 2.014 us [99.525%], band: 2.000 us, 4.028 us
+24.0    : DEC RX01: OK, trk: 024, sec: 26
+0005968b: motor=1
+0005969f: side=1
+000596b4: track=24
+000596c8: stream=1
+00059af8: stream=0
+24.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.351
+24.1    : No flux reversal found
+00059b0c: motor=1
+00059b20: side=1
+00059b34: track=0
+00059c74: motor=1
+00059c88: side=1
+00059c9c: track=25
+00059de6: motor=1
+00059dfa: side=1
+00059e0e: track=24
+00059e7a: stream=1
+0005a250: stream=0
+24.1    : No flux reversal found
+24.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.280
+24.1    : Read operation failed
+0005a264: motor=1
+0005a278: side=0
+0005a28d: track=25
+0005a2f9: stream=1
+0005a6fe: stream=0
+25.0    : frev: 58099, drift: 0.300 us, tfer: 330868 B/s, rpm: 358.291
+25.0    : band: 2.400 us, 3.483 us?, 4.059 us?, 4.837 us, 5.841 us?
+25.0    : base: 2.015 us [99.488%], band: 2.000 us, 4.030 us
+25.0    : DEC RX01: OK, trk: 025, sec: 26
+0005a73a: motor=1
+0005a74e: side=1
+0005a763: track=25
+0005a777: stream=1
+0005aba8: stream=0
+25.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.340
+25.1    : No flux reversal found
+0005abbc: motor=1
+0005abd0: side=1
+0005abe4: track=0
+0005ad2e: motor=1
+0005ad42: side=1
+0005ad56: track=26
+0005aea9: motor=1
+0005aebd: side=1
+0005aed1: track=25
+0005af3d: stream=1
+0005b2ff: stream=0
+25.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.280
+25.1    : No flux reversal found
+25.1    : Read operation failed
+0005b313: motor=1
+0005b327: side=0
+0005b33c: track=26
+0005b3a8: stream=1
+0005b7ad: stream=0
+26.0    : frev: 61186, drift: 0.516 us, tfer: 348468 B/s, rpm: 358.330
+26.0    : band: 2.399 us, 3.522 us?, 4.834 us, 6.155 us?, 7.073 us?
+26.0    : base: 2.013 us [99.542%], band: 1.999 us, 4.027 us
+26.0    : DEC RX01: OK, trk: 026, sec: 26
+0005b7e9: motor=1
+0005b7fd: side=1
+0005b812: track=26
+0005b826: stream=1
+0005bc57: stream=0
+26.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.356
+26.1    : No flux reversal found
+0005bc6b: motor=1
+0005bc7f: side=1
+0005bc93: track=0
+0005bde6: motor=1
+0005bdfa: side=1
+0005be0e: track=27
+0005bf6a: motor=1
+0005bf7e: side=1
+0005bf92: track=26
+0005bffe: stream=1
+0005c3ad: stream=0
+26.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.311
+26.1    : No flux reversal found
+26.1    : Read operation failed
+0005c3c1: motor=1
+0005c3d5: side=0
+0005c3ea: track=27
+0005c456: stream=1
+0005c85c: stream=0
+27.0    : frev: 61013, drift: 0.366 us, tfer: 346991 B/s, rpm: 358.258
+27.0    : band: 1.572 us?, 2.400 us, 3.500 us?, 4.835 us, 5.911 us?
+27.0    : base: 2.014 us [99.515%], band: 2.000 us, 4.029 us
+27.0    : DEC RX01: OK, trk: 027, sec: 26
+0005c898: motor=1
+0005c8ac: side=1
+0005c8c1: track=27
+0005c8d5: stream=1
+0005cd05: stream=0
+27.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.348
+27.1    : No flux reversal found
+0005cd19: motor=1
+0005cd2d: side=1
+0005cd41: track=0
+0005ce9d: motor=1
+0005ceb1: side=1
+0005cec5: track=28
+0005d02a: motor=1
+0005d03e: side=1
+0005d052: track=27
+0005d0be: stream=1
+0005d508: stream=0
+27.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.323
+27.1    : No flux reversal found
+27.1    : Read operation failed
+0005d51c: motor=1
+0005d530: side=0
+0005d545: track=28
+0005d5b1: stream=1
+0005d9b6: stream=0
+28.0    : frev: 53858, drift: 0.824 us, tfer: 306449 B/s, rpm: 358.309
+28.0    : band: 2.400 us, 3.491 us?, 4.838 us
+28.0    : base: 2.016 us [99.476%], band: 2.000 us, 4.031 us
+28.0    : DEC RX01: OK, trk: 028, sec: 26
+0005d9de: motor=1
+0005d9f2: side=1
+0005da07: track=28
+0005da1b: stream=1
+0005de5f: stream=0
+28.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.304
+28.1    : No flux reversal found
+0005de73: motor=1
+0005de87: side=1
+0005de9b: track=0
+0005e000: motor=1
+0005e014: side=1
+0005e028: track=29
+0005e196: motor=1
+0005e1aa: side=1
+0005e1be: track=28
+0005e22a: stream=1
+0005e661: stream=0
+28.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.305
+28.1    : No flux reversal found
+28.1    : Read operation failed
+0005e675: motor=1
+0005e689: side=0
+0005e69e: track=29
+0005e70a: stream=1
+0005eb10: stream=0
+29.0    : frev: 56909, drift: 0.574 us, tfer: 324316 B/s, rpm: 358.286
+29.0    : band: 2.402 us, 3.480 us, 4.838 us
+29.0    : base: 2.015 us [99.451%], band: 2.002 us, 4.031 us
+29.0    : DEC RX01: OK, trk: 029, sec: 26
+0005eb4c: motor=1
+0005eb60: side=1
+0005eb75: track=29
+0005eb89: stream=1
+0005efb9: stream=0
+29.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.351
+29.1    : No flux reversal found
+0005efcd: motor=1
+0005efe1: side=1
+0005eff5: track=0
+0005f163: motor=1
+0005f177: side=1
+0005f18b: track=30
+0005f303: motor=1
+0005f317: side=1
+0005f32b: track=29
+0005f397: stream=1
+0005f7bb: stream=0
+29.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.297
+29.1    : No flux reversal found
+29.1    : Read operation failed
+0005f7cf: motor=1
+0005f7e3: side=0
+0005f7f8: track=30
+0005f864: stream=1
+0005fc6a: stream=0
+30.0    : frev: 54128, drift: 0.075 us, tfer: 308050 B/s, rpm: 358.324
+30.0    : band: 2.400 us, 3.624 us?, 4.841 us, 5.874 us?, 6.410 us?
+30.0    : base: 2.017 us [99.429%], band: 2.000 us, 4.034 us
+30.0    : DEC RX01: OK, trk: 030, sec: 26
+0005fc92: motor=1
+0005fca6: side=1
+0005fcbb: track=30
+0005fccf: stream=1
+00060113: stream=0
+30.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.302
+30.1    : No flux reversal found
+00060127: motor=1
+0006013b: side=1
+0006014f: track=0
+000602c7: motor=1
+000602db: side=1
+000602ef: track=31
+00060470: motor=1
+00060484: side=1
+00060498: track=30
+00060504: stream=1
+00060915: stream=0
+30.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.325
+30.1    : No flux reversal found
+30.1    : Read operation failed
+00060929: motor=1
+0006093d: side=0
+00060952: track=31
+000609be: stream=1
+00060dc6: stream=0
+31.0    : frev: 52534, drift: 0.474 us, tfer: 299141 B/s, rpm: 358.288
+31.0    : band: 2.397 us, 3.492 us?, 4.839 us, 6.208 us?, 8.400 us?
+31.0    : base: 2.016 us [99.406%], band: 1.997 us, 4.033 us
+31.0    : DEC RX01: OK, trk: 031, sec: 26
+00060dee: motor=1
+00060e02: side=1
+00060e17: track=31
+00060e2b: stream=1
+0006126d: stream=0
+31.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.356
+31.1    : No flux reversal found
+00061281: motor=1
+00061295: side=1
+000612a9: track=0
+0006142a: motor=1
+0006143e: side=1
+00061452: track=32
+000615dc: motor=1
+000615f0: side=1
+00061604: track=31
+00061670: stream=1
+00061a6f: stream=0
+31.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.267
+31.1    : No flux reversal found
+31.1    : Read operation failed
+00061a83: motor=1
+00061a97: side=0
+00061aac: track=32
+00061b18: stream=1
+00061f1e: stream=0
+32.0    : frev: 51921, drift: 0.524 us, tfer: 295431 B/s, rpm: 358.288
+32.0    : band: 2.397 us, 3.579 us?, 4.841 us
+32.0    : base: 2.017 us [99.390%], band: 1.997 us, 4.034 us
+32.0    : DEC RX01: OK, trk: 032, sec: 26
+00061f47: motor=1
+00061f5b: side=1
+00061f70: track=32
+00061f84: stream=1
+000623c7: stream=0
+32.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.297
+32.1    : No flux reversal found
+000623db: motor=1
+000623ef: side=1
+00062403: track=0
+0006258d: motor=1
+000625a1: side=1
+000625b5: track=33
+00062748: motor=1
+0006275c: side=1
+00062770: track=32
+000627dc: stream=1
+00062bc9: stream=0
+32.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.309
+32.1    : No flux reversal found
+32.1    : Read operation failed
+00062bdd: motor=1
+00062bf1: side=0
+00062c06: track=33
+00062c72: stream=1
+00063077: stream=0
+33.0    : frev: 51978, drift: 0.125 us, tfer: 295765 B/s, rpm: 358.248
+33.0    : band: 2.397 us, 3.653 us?, 4.840 us, 6.231 us?, 6.498 us?
+33.0    : base: 2.017 us [99.405%], band: 1.997 us, 4.033 us
+33.0    : DEC RX01: OK, trk: 033, sec: 26
+0006309f: motor=1
+000630b3: side=1
+000630c8: track=33
+000630dc: stream=1
+00063521: stream=0
+33.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.338
+33.1    : No flux reversal found
+00063535: motor=1
+00063549: side=1
+0006355d: track=0
+000636f0: motor=1
+00063704: side=1
+00063718: track=34
+000638b4: motor=1
+000638c8: side=1
+000638dc: track=33
+00063948: stream=1
+00063d23: stream=0
+33.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.270
+33.1    : No flux reversal found
+33.1    : Read operation failed
+00063d37: motor=1
+00063d4b: side=0
+00063d60: track=34
+00063dcc: stream=1
+000641d2: stream=0
+34.0    : frev: 51975, drift: 0.449 us, tfer: 295765 B/s, rpm: 358.320
+34.0    : band: 2.395 us, 3.747 us?, 4.840 us, 5.930 us?, 6.364 us?
+34.0    : base: 2.016 us [99.379%], band: 1.996 us, 4.033 us
+34.0    : DEC RX01: OK, trk: 034, sec: 26
+000641fa: motor=1
+0006420e: side=1
+00064223: track=34
+00064237: stream=1
+0006467b: stream=0
+34.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.323
+34.1    : No flux reversal found
+0006468f: motor=1
+000646a3: side=1
+000646b7: track=0
+00064853: motor=1
+00064867: side=1
+0006487b: track=35
+00064a21: motor=1
+00064a35: side=1
+00064a49: track=34
+00064ab5: stream=1
+00064e7d: stream=0
+34.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.322
+34.1    : No flux reversal found
+34.1    : Read operation failed
+00064e91: motor=1
+00064ea5: side=0
+00064eba: track=35
+00064f26: stream=1
+0006532b: stream=0
+35.0    : frev: 51991, drift: 0.175 us, tfer: 295765 B/s, rpm: 358.276
+35.0    : band: 2.396 us, 3.282 us, 4.839 us, 6.339 us?, 6.878 us?
+35.0    : base: 2.016 us [99.405%], band: 1.997 us, 4.032 us
+35.0    : DEC RX01: OK, trk: 035, sec: 26
+00065367: motor=1
+0006537b: side=1
+00065390: track=35
+000653a4: stream=1
+000657d5: stream=0
+35.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.324
+35.1    : No flux reversal found
+000657e9: motor=1
+000657fd: side=1
+00065811: track=0
+000659b7: motor=1
+000659cb: side=1
+000659df: track=36
+00065b8e: motor=1
+00065ba2: side=1
+00065bb6: track=35
+00065c22: stream=1
+00065fd7: stream=0
+35.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.280
+35.1    : No flux reversal found
+35.1    : Read operation failed
+00065feb: motor=1
+00065fff: side=0
+00066014: track=36
+00066080: stream=1
+00066485: stream=0
+36.0    : frev: 61084, drift: 0.275 us, tfer: 347728 B/s, rpm: 358.287
+36.0    : band: 2.401 us, 4.829 us
+36.0    : base: 2.012 us [99.588%], band: 2.000 us, 4.024 us
+36.0    : DEC RX01: OK, trk: 036, sec: 26
+000664ad: motor=1
+000664c1: side=1
+000664d6: track=36
+000664ea: stream=1
+0006692f: stream=0
+36.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.333
+36.1    : No flux reversal found
+00066943: motor=1
+00066957: side=1
+0006696b: track=0
+00066b1a: motor=1
+00066b2e: side=1
+00066b42: track=37
+00066cfa: motor=1
+00066d0e: side=1
+00066d22: track=36
+00066d8e: stream=1
+000671dc: stream=0
+36.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.278
+36.1    : No flux reversal found
+36.1    : Read operation failed
+000671f0: motor=1
+00067204: side=0
+00067219: track=37
+00067285: stream=1
+0006768b: stream=0
+37.0    : frev: 61235, drift: 0.716 us, tfer: 348839 B/s, rpm: 358.296
+37.0    : band: 2.403 us, 3.616 us?, 4.832 us
+37.0    : base: 2.013 us [99.511%], band: 2.002 us, 4.027 us
+37.0    : DEC RX01: OK, trk: 037, sec: 26
+000676c7: motor=1
+000676db: side=1
+000676f0: track=37
+00067704: stream=1
+00067b34: stream=0
+37.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.328
+37.1    : No flux reversal found
+00067b48: motor=1
+00067b5c: side=1
+00067b70: track=0
+00067d28: motor=1
+00067d3c: side=1
+00067d50: track=38
+00067f11: motor=1
+00067f25: side=1
+00067f39: track=37
+00067fa5: stream=1
+000683e1: stream=0
+37.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.273
+37.1    : No flux reversal found
+37.1    : Read operation failed
+000683f5: motor=1
+00068409: side=0
+0006841e: track=38
+0006848a: stream=1
+0006888f: stream=0
+38.0    : frev: 58785, drift: 0.083 us, tfer: 334624 B/s, rpm: 358.306
+38.0    : band: 2.401 us, 3.667 us?, 4.825 us, 5.446 us?, 6.099 us?
+38.0    : base: 2.011 us [99.620%], band: 2.001 us, 4.022 us
+38.0    : DEC RX01: OK, trk: 038, sec: 26
+000688cb: motor=1
+000688df: side=1
+000688f4: track=38
+00068908: stream=1
+00068d38: stream=0
+38.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.334
+38.1    : No flux reversal found
+00068d4c: motor=1
+00068d60: side=1
+00068d74: track=0
+00068f35: motor=1
+00068f49: side=1
+00068f5d: track=39
+00069128: motor=1
+0006913c: side=1
+00069150: track=38
+000691bc: stream=1
+000695e5: stream=0
+38.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.284
+38.1    : No flux reversal found
+38.1    : Read operation failed
+000695f9: motor=1
+0006960d: side=0
+00069622: track=39
+0006968e: stream=1
+00069a95: stream=0
+39.0    : frev: 60512, drift: 0.491 us, tfer: 344800 B/s, rpm: 358.276
+39.0    : band: 2.398 us, 3.688 us, 4.827 us, 8.254 us?, 8.505 us?
+39.0    : base: 2.014 us [99.511%], band: 1.999 us, 4.028 us
+39.0    : DEC RX01: OK, trk: 039, sec: 26
+00069ad1: motor=1
+00069ae5: side=1
+00069afa: track=39
+00069b0e: stream=1
+00069f3d: stream=0
+39.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.328
+39.1    : No flux reversal found
+00069f51: motor=1
+00069f65: side=1
+00069f79: track=0
+0006a144: motor=1
+0006a158: side=1
+0006a16c: track=40
+0006a340: motor=1
+0006a354: side=1
+0006a368: track=39
+0006a3d4: stream=1
+0006a7ea: stream=0
+39.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.293
+39.1    : No flux reversal found
+39.1    : Read operation failed
+0006a7fe: motor=1
+0006a812: side=0
+0006a827: track=40
+0006a893: stream=1
+0006ac99: stream=0
+40.0    : frev: 61824, drift: 0.350 us, tfer: 351459 B/s, rpm: 358.268
+40.0    : band: 2.397 us, 3.597 us?, 4.815 us, 5.825 us?, 6.732 us?
+40.0    : base: 2.007 us [99.715%], band: 1.998 us, 4.015 us
+40.0    : DEC RX01: OK, trk: 040, sec: 26
+0006acc1: motor=1
+0006acd5: side=1
+0006acea: track=40
+0006acfe: stream=1
+0006b142: stream=0
+40.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.332
+40.1    : No flux reversal found
+0006b156: motor=1
+0006b16a: side=1
+0006b17e: track=0
+0006b352: motor=1
+0006b366: side=1
+0006b37a: track=41
+0006b557: motor=1
+0006b56b: side=1
+0006b57f: track=40
+0006b5eb: stream=1
+0006b9ef: stream=0
+40.1    : No flux reversal found
+40.1    : Read operation failed
+40.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.277
+0006ba03: motor=1
+0006ba17: side=0
+0006ba2c: track=41
+0006ba98: stream=1
+0006be9d: stream=0
+41.0    : frev: 60864, drift: 0.125 us, tfer: 346624 B/s, rpm: 358.260
+41.0    : band: 2.398 us, 4.831 us
+41.0    : base: 2.013 us [99.537%], band: 1.998 us, 4.026 us
+41.0    : DEC RX01: OK, trk: 041, sec: 26
+0006bec5: motor=1
+0006bed9: side=1
+0006beee: track=41
+0006bf02: stream=1
+0006c347: stream=0
+41.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.336
+41.1    : No flux reversal found
+0006c35b: motor=1
+0006c36f: side=1
+0006c383: track=0
+0006c560: motor=1
+0006c574: side=1
+0006c588: track=42
+0006c76e: motor=1
+0006c782: side=1
+0006c796: track=41
+0006c802: stream=1
+0006cbf4: stream=0
+41.1    : No flux reversal found
+41.1    : Read operation failed
+41.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.293
+0006cc08: motor=1
+0006cc1c: side=0
+0006cc31: track=42
+0006cc9d: stream=1
+0006d0a4: stream=0
+42.0    : frev: 59197, drift: 0.092 us, tfer: 338388 B/s, rpm: 358.244
+42.0    : band: 2.395 us, 3.671 us?, 4.827 us, 5.486 us?, 6.280 us?
+42.0    : base: 2.010 us [99.588%], band: 1.996 us, 4.021 us
+42.0    : DEC RX01: OK, trk: 042, sec: 26
+0006d0cc: motor=1
+0006d0e0: side=1
+0006d0f5: track=42
+0006d109: stream=1
+0006d54c: stream=0
+42.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.322
+42.1    : No flux reversal found
+0006d560: motor=1
+0006d574: side=1
+0006d588: track=0
+0006d76e: motor=1
+0006d782: side=1
+0006d796: track=43
+0006d985: motor=1
+0006d999: side=1
+0006d9ad: track=42
+0006da19: stream=1
+0006ddfa: stream=0
+42.1    : No flux reversal found
+42.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.298
+42.1    : Read operation failed
+0006de0e: motor=1
+0006de22: side=0
+0006de37: track=43
+0006dea3: stream=1
+0006e2a8: stream=0
+43.0    : frev: 59285, drift: 0.125 us, tfer: 338738 B/s, rpm: 358.244
+43.0    : band: 2.398 us, 4.835 us
+43.0    : base: 2.015 us [99.480%], band: 1.998 us, 4.029 us
+43.0    : DEC RX01: OK, trk: 043, sec: 26
+0006e2e4: motor=1
+0006e2f8: side=1
+0006e30d: track=43
+0006e321: stream=1
+0006e752: stream=0
+43.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.321
+43.1    : No flux reversal found
+0006e766: motor=1
+0006e77a: side=1
+0006e78e: track=0
+0006e97d: motor=1
+0006e991: side=1
+0006e9a5: track=44
+0006eb9e: motor=1
+0006ebb2: side=1
+0006ebc6: track=43
+0006ec32: stream=1
+0006efff: stream=0
+43.1    : No flux reversal found
+43.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.273
+43.1    : Read operation failed
+0006f013: motor=1
+0006f027: side=0
+0006f03c: track=44
+0006f0a8: stream=1
+0006f4ad: stream=0
+44.0    : frev: 60910, drift: 0.058 us, tfer: 345892 B/s, rpm: 358.242
+44.0    : band: 2.400 us, 4.826 us
+44.0    : base: 2.011 us [99.639%], band: 2.000 us, 4.022 us
+44.0    : DEC RX01: OK, trk: 044, sec: 26
+0006f4e9: motor=1
+0006f4fd: side=1
+0006f512: track=44
+0006f526: stream=1
+0006f957: stream=0
+44.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.293
+44.1    : No flux reversal found
+0006f96b: motor=1
+0006f97f: side=1
+0006f993: track=0
+0006fb8c: motor=1
+0006fba0: side=1
+0006fbb4: track=45
+0006fdb6: motor=1
+0006fdca: side=1
+0006fdde: track=44
+0006fe4a: stream=1
+00070204: stream=0
+44.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.287
+44.1    : No flux reversal found
+44.1    : Read operation failed
+00070218: motor=1
+0007022c: side=0
+00070241: track=45
+000702ad: stream=1
+000706b4: stream=0
+45.0    : frev: 60562, drift: 0.158 us, tfer: 345163 B/s, rpm: 358.251
+45.0    : band: 2.404 us, 3.301 us?, 3.766 us?, 4.835 us, 8.921 us?
+45.0    : base: 2.016 us [99.448%], band: 2.002 us, 4.031 us
+45.0    : DEC RX01: OK, trk: 045, sec: 26
+000706f0: motor=1
+00070704: side=1
+00070719: track=45
+0007072d: stream=1
+00070b5c: stream=0
+45.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.275
+45.1    : No flux reversal found
+00070b70: motor=1
+00070b84: side=1
+00070b98: track=0
+00070d9a: motor=1
+00070dae: side=1
+00070dc2: track=46
+00070fcd: motor=1
+00070fe1: side=1
+00070ff5: track=45
+00071061: stream=1
+000714b4: stream=0
+45.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.253
+45.1    : No flux reversal found
+45.1    : Read operation failed
+000714c8: motor=1
+000714dc: side=0
+000714f1: track=46
+0007155d: stream=1
+00071963: stream=0
+46.0    : frev: 61196, drift: 0.083 us, tfer: 348468 B/s, rpm: 358.266
+46.0    : band: 2.400 us, 3.720 us?, 4.824 us, 5.748 us?, 8.467 us?
+46.0    : base: 2.013 us [99.577%], band: 2.000 us, 4.025 us
+46.0    : DEC RX01: OK, trk: 046, sec: 26
+0007199f: motor=1
+000719b3: side=1
+000719c8: track=46
+000719dc: stream=1
+00071e0c: stream=0
+46.1    : No flux reversal found
+46.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.298
+00071e20: motor=1
+00071e34: side=1
+00071e48: track=0
+00072053: motor=1
+00072067: side=1
+0007207b: track=47
+0007228f: motor=1
+000722a3: side=1
+000722b7: track=46
+00072323: stream=1
+00072764: stream=0
+46.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.303
+46.1    : No flux reversal found
+46.1    : Read operation failed
+00072778: motor=1
+0007278c: side=0
+000727a1: track=47
+0007280d: stream=1
+00072c13: stream=0
+47.0    : frev: 62681, drift: 0.216 us, tfer: 356819 B/s, rpm: 358.269
+47.0    : band: 2.398 us, 4.831 us
+47.0    : base: 2.013 us [99.554%], band: 1.999 us, 4.025 us
+47.0    : DEC RX01: OK, trk: 047, sec: 26
+00072c3b: motor=1
+00072c4f: side=1
+00072c64: track=47
+00072c78: stream=1
+000730bc: stream=0
+47.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.265
+47.1    : No flux reversal found
+000730d0: motor=1
+000730e4: side=1
+000730f8: track=0
+0007330c: motor=1
+00073320: side=1
+00073334: track=48
+00073552: motor=1
+00073566: side=1
+0007357a: track=47
+000735e6: stream=1
+00073a14: stream=0
+47.1    : No flux reversal found
+47.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.278
+47.1    : Read operation failed
+00073a28: motor=1
+00073a3c: side=0
+00073a51: track=48
+00073abd: stream=1
+00073ec3: stream=0
+48.0    : frev: 61555, drift: 0.191 us, tfer: 350706 B/s, rpm: 358.236
+48.0    : band: 2.397 us, 4.825 us, 5.637 us?
+48.0    : base: 2.010 us [99.619%], band: 1.998 us, 4.020 us
+48.0    : DEC RX01: OK, trk: 048, sec: 26
+00073eeb: motor=1
+00073eff: side=1
+00073f14: track=48
+00073f28: stream=1
+0007436c: stream=0
+48.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.293
+48.1    : No flux reversal found
+00074380: motor=1
+00074394: side=1
+000743a8: track=0
+000745c6: motor=1
+000745da: side=1
+000745ee: track=49
+00074815: motor=1
+00074829: side=1
+0007483d: track=48
+000748a9: stream=1
+00074cc4: stream=0
+48.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.241
+48.1    : No flux reversal found
+48.1    : Read operation failed
+00074cd8: motor=1
+00074cec: side=0
+00074d01: track=49
+00074d6d: stream=1
+00075174: stream=0
+49.0    : frev: 61364, drift: 0.067 us, tfer: 349583 B/s, rpm: 358.292
+49.0    : band: 2.398 us, 4.831 us
+49.0    : base: 2.013 us [99.543%], band: 1.998 us, 4.026 us
+49.0    : DEC RX01: OK, trk: 049, sec: 26
+000751b0: motor=1
+000751c4: side=1
+000751d9: track=49
+000751ed: stream=1
+0007561c: stream=0
+49.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.252
+49.1    : No flux reversal found
+00075630: motor=1
+00075644: side=1
+00075658: track=0
+0007587f: motor=1
+00075893: side=1
+000758a7: track=50
+00075ad7: motor=1
+00075aeb: side=1
+00075aff: track=49
+00075b6b: stream=1
+00075f74: stream=0
+49.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.281
+49.1    : No flux reversal found
+49.1    : Read operation failed
+00075f88: motor=1
+00075f9c: side=0
+00075fb1: track=50
+0007601d: stream=1
+00076424: stream=0
+50.0    : frev: 59058, drift: 0.566 us, tfer: 336150 B/s, rpm: 358.237
+50.0    : band: 2.395 us, 3.646 us?, 4.823 us, 5.873 us?, 8.293 us?
+50.0    : base: 2.011 us [99.586%], band: 1.997 us, 4.022 us
+50.0    : DEC RX01: OK, trk: 050, sec: 26
+0007644c: motor=1
+00076460: side=1
+00076475: track=50
+00076489: stream=1
+000768cc: stream=0
+50.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.281
+50.1    : No flux reversal found
+000768e0: motor=1
+000768f4: side=1
+00076908: track=0
+00076b38: motor=1
+00076b4c: side=1
+00076b60: track=51
+00076d99: motor=1
+00076dad: side=1
+00076dc1: track=50
+00076e2d: stream=1
+00077224: stream=0
+50.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.217
+50.1    : No flux reversal found
+50.1    : Read operation failed
+00077238: motor=1
+0007724c: side=0
+00077261: track=51
+000772cd: stream=1
+000776d3: stream=0
+51.0    : frev: 59758, drift: 0.458 us, tfer: 340145 B/s, rpm: 358.271
+51.0    : band: 2.398 us, 4.832 us
+51.0    : base: 2.014 us [99.516%], band: 1.998 us, 4.027 us
+51.0    : DEC RX01: OK, trk: 051, sec: 26
+0007770f: motor=1
+00077723: side=1
+00077738: track=51
+0007774c: stream=1
+00077b7c: stream=0
+51.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.283
+51.1    : No flux reversal found
+00077b90: motor=1
+00077ba4: side=1
+00077bb8: track=0
+00077df1: motor=1
+00077e05: side=1
+00077e19: track=52
+0007805b: motor=1
+0007806f: side=1
+00078083: track=51
+000780ef: stream=1
+000784d4: stream=0
+51.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.283
+51.1    : No flux reversal found
+51.1    : Read operation failed
+000784e8: motor=1
+000784fc: side=0
+00078511: track=52
+0007857d: stream=1
+00078982: stream=0
+52.0    : frev: 60944, drift: 0.150 us, tfer: 347359 B/s, rpm: 358.247
+52.0    : band: 2.400 us, 3.587 us?, 4.829 us, 5.744 us?, 6.190 us?
+52.0    : base: 2.012 us [99.580%], band: 2.001 us, 4.024 us
+52.0    : DEC RX01: OK, trk: 052, sec: 26
+000789aa: motor=1
+000789be: side=1
+000789d3: track=52
+000789e7: stream=1
+00078e2d: stream=0
+52.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.254
+52.1    : No flux reversal found
+00078e41: motor=1
+00078e55: side=1
+00078e69: track=0
+000790ab: motor=1
+000790bf: side=1
+000790d3: track=53
+0007931f: motor=1
+00079333: side=1
+00079347: track=52
+000793b3: stream=1
+00079784: stream=0
+52.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.243
+52.1    : No flux reversal found
+52.1    : Read operation failed
+00079798: motor=1
+000797ac: side=0
+000797c1: track=53
+0007982d: stream=1
+00079c32: stream=0
+53.0    : frev: 62502, drift: 0.216 us, tfer: 355656 B/s, rpm: 358.257
+53.0    : band: 2.403 us, 3.512 us?, 4.833 us, 7.855 us?, 8.860 us?
+53.0    : base: 2.014 us [99.484%], band: 2.003 us, 4.028 us
+53.0    : DEC RX01: OK, trk: 053, sec: 26
+00079c6f: motor=1
+00079c83: side=1
+00079c98: track=53
+00079cac: stream=1
+0007a0dd: stream=0
+53.1    : No flux reversal found
+53.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.301
+0007a0f1: motor=1
+0007a105: side=1
+0007a119: track=0
+0007a365: motor=1
+0007a379: side=1
+0007a38d: track=54
+0007a5e2: motor=1
+0007a5f6: side=1
+0007a60a: track=53
+0007a676: stream=1
+0007aa34: stream=0
+53.1    : No flux reversal found
+53.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.283
+53.1    : Read operation failed
+0007aa48: motor=1
+0007aa5c: side=0
+0007aa71: track=54
+0007aadd: stream=1
+0007aee4: stream=0
+54.0    : frev: 61085, drift: 0.416 us, tfer: 348097 B/s, rpm: 358.263
+54.0    : band: 2.399 us, 3.616 us?, 4.828 us, 7.116 us?, 8.881 us?
+54.0    : base: 2.012 us [99.598%], band: 2.000 us, 4.024 us
+54.0    : DEC RX01: OK, trk: 054, sec: 26
+0007af0d: motor=1
+0007af21: side=1
+0007af36: track=54
+0007af4a: stream=1
+0007b38d: stream=0
+54.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.234
+54.1    : No flux reversal found
+0007b3a1: motor=1
+0007b3b5: side=1
+0007b3c9: track=0
+0007b61e: motor=1
+0007b632: side=1
+0007b646: track=55
+0007b8a4: motor=1
+0007b8b8: side=1
+0007b8cc: track=54
+0007b938: stream=1
+0007bce4: stream=0
+54.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.276
+54.1    : No flux reversal found
+54.1    : Read operation failed
+0007bcf8: motor=1
+0007bd0c: side=0
+0007bd21: track=55
+0007bd8d: stream=1
+0007c193: stream=0
+55.0    : frev: 61009, drift: 0.458 us, tfer: 347359 B/s, rpm: 358.204
+55.0    : band: 2.398 us, 3.507 us?, 4.831 us, 5.727 us?, 6.596 us?
+55.0    : base: 2.011 us [99.585%], band: 1.998 us, 4.023 us
+55.0    : DEC RX01: OK, trk: 055, sec: 26
+0007c1cf: motor=1
+0007c1e3: side=1
+0007c1f8: track=55
+0007c20c: stream=1
+0007c63d: stream=0
+55.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.275
+55.1    : No flux reversal found
+0007c651: motor=1
+0007c665: side=1
+0007c679: track=0
+0007c8d7: motor=1
+0007c8eb: side=1
+0007c8ff: track=56
+0007cb66: motor=1
+0007cb7a: side=1
+0007cb8e: track=55
+0007cbfa: stream=1
+0007d040: stream=0
+55.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.257
+55.1    : No flux reversal found
+55.1    : Read operation failed
+0007d054: motor=1
+0007d068: side=0
+0007d07d: track=56
+0007d0e9: stream=1
+0007d4ee: stream=0
+56.0    : frev: 61007, drift: 0.549 us, tfer: 346991 B/s, rpm: 358.209
+56.0    : band: 2.398 us, 3.257 us?, 3.542 us?, 4.830 us, 5.770 us?
+56.0    : base: 2.012 us [99.560%], band: 1.999 us, 4.025 us
+56.0    : DEC RX01: OK, trk: 056, sec: 26
+0007d52a: motor=1
+0007d53e: side=1
+0007d553: track=56
+0007d567: stream=1
+0007d998: stream=0
+56.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.272
+56.1    : No flux reversal found
+0007d9ac: motor=1
+0007d9c0: side=1
+0007d9d4: track=0
+0007dc3b: motor=1
+0007dc4f: side=1
+0007dc63: track=57
+0007ded3: motor=1
+0007dee7: side=1
+0007defb: track=56
+0007df67: stream=1
+0007e39b: stream=0
+56.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.279
+56.1    : No flux reversal found
+56.1    : Read operation failed
+0007e3af: motor=1
+0007e3c3: side=0
+0007e3d8: track=57
+0007e444: stream=1
+0007e849: stream=0
+57.0    : frev: 60745, drift: 0.275 us, tfer: 346257 B/s, rpm: 358.238
+57.0    : band: 2.398 us, 3.275 us?, 3.801 us?, 4.821 us, 8.937 us?
+57.0    : base: 2.012 us [99.557%], band: 1.998 us, 4.024 us
+57.0    : DEC RX01: OK, trk: 057, sec: 26
+0007e885: motor=1
+0007e899: side=1
+0007e8ae: track=57
+0007e8c2: stream=1
+0007ecf3: stream=0
+57.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.251
+57.1    : No flux reversal found
+0007ed07: motor=1
+0007ed1b: side=1
+0007ed2f: track=0
+0007ef9f: motor=1
+0007efb3: side=1
+0007efc7: track=58
+0007f241: motor=1
+0007f255: side=1
+0007f269: track=57
+0007f2d5: stream=1
+0007f6f6: stream=0
+57.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.274
+57.1    : No flux reversal found
+57.1    : Read operation failed
+0007f70a: motor=1
+0007f71e: side=0
+0007f733: track=58
+0007f79f: stream=1
+0007fba5: stream=0
+58.0    : frev: 60777, drift: 0.191 us, tfer: 345892 B/s, rpm: 358.242
+58.0    : band: 2.395 us, 4.832 us
+58.0    : base: 2.014 us [99.479%], band: 1.996 us, 4.027 us
+58.0    : DEC RX01: OK, trk: 058, sec: 26
+0007fbcd: motor=1
+0007fbe1: side=1
+0007fbf6: track=58
+0007fc0a: stream=1
+0008004e: stream=0
+58.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.240
+58.1    : No flux reversal found
+00080062: motor=1
+00080076: side=1
+0008008a: track=0
+00080304: motor=1
+00080318: side=1
+0008032c: track=59
+000805af: motor=1
+000805c3: side=1
+000805d7: track=58
+00080643: stream=1
+00080a52: stream=0
+58.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.274
+58.1    : No flux reversal found
+58.1    : Read operation failed
+00080a66: motor=1
+00080a7a: side=0
+00080a8f: track=59
+00080afb: stream=1
+00080f00: stream=0
+59.0    : frev: 57889, drift: 0.058 us, tfer: 329389 B/s, rpm: 358.255
+59.0    : band: 2.399 us, 3.259 us?, 3.939 us?, 4.831 us, 6.341 us?
+59.0    : base: 2.013 us [99.555%], band: 1.999 us, 4.025 us
+59.0    : DEC RX01: OK, trk: 059, sec: 26
+00080f3c: motor=1
+00080f50: side=1
+00080f65: track=59
+00080f79: stream=1
+000813a9: stream=0
+59.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.217
+59.1    : No flux reversal found
+000813bd: motor=1
+000813d1: side=1
+000813e5: track=0
+00081668: motor=1
+0008167c: side=1
+00081690: track=60
+0008191c: motor=1
+00081930: side=1
+00081944: track=59
+000819b0: stream=1
+00081dad: stream=0
+59.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.247
+59.1    : No flux reversal found
+59.1    : Read operation failed
+00081dc1: motor=1
+00081dd5: side=0
+00081dea: track=60
+00081e56: stream=1
+0008225a: stream=0
+60.0    : frev: 61014, drift: 0.283 us, tfer: 346624 B/s, rpm: 358.259
+60.0    : band: 2.400 us, 3.660 us?, 4.826 us, 6.865 us?, 8.605 us?
+60.0    : base: 2.013 us [99.569%], band: 2.000 us, 4.026 us
+60.0    : DEC RX01: OK, trk: 060, sec: 26
+00082296: motor=1
+000822aa: side=1
+000822bf: track=60
+000822d3: stream=1
+00082705: stream=0
+60.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.227
+60.1    : No flux reversal found
+00082719: motor=1
+0008272d: side=1
+00082741: track=0
+000829cd: motor=1
+000829e1: side=1
+000829f5: track=61
+00082c8a: motor=1
+00082c9e: side=1
+00082cb2: track=60
+00082d1e: stream=1
+00083108: stream=0
+60.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.229
+60.1    : No flux reversal found
+60.1    : Read operation failed
+0008311c: motor=1
+00083130: side=0
+00083145: track=61
+000831b1: stream=1
+000835b6: stream=0
+61.0    : frev: 59481, drift: 0.316 us, tfer: 339440 B/s, rpm: 358.252
+61.0    : band: 2.403 us, 3.758 us?, 4.831 us, 5.711 us?, 8.420 us?
+61.0    : base: 2.013 us [99.539%], band: 2.002 us, 4.025 us
+61.0    : DEC RX01: OK, trk: 061, sec: 26
+000835f2: motor=1
+00083606: side=1
+0008361b: track=61
+0008362f: stream=1
+00083a60: stream=0
+61.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.245
+61.1    : No flux reversal found
+00083a74: motor=1
+00083a88: side=1
+00083a9c: track=0
+00083d31: motor=1
+00083d45: side=1
+00083d59: track=62
+00083ff8: motor=1
+0008400c: side=1
+00084020: track=61
+0008408c: stream=1
+00084463: stream=0
+61.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.208
+61.1    : No flux reversal found
+61.1    : Read operation failed
+00084477: motor=1
+0008448b: side=0
+000844a0: track=62
+0008450c: stream=1
+00084913: stream=0
+62.0    : frev: 58422, drift: 0.117 us, tfer: 332360 B/s, rpm: 358.254
+62.0    : band: 2.402 us, 3.533 us?, 4.832 us, 6.666 us?, 8.176 us?
+62.0    : base: 2.015 us [99.476%], band: 2.002 us, 4.030 us
+62.0    : DEC RX01: OK, trk: 062, sec: 26
+0008494f: motor=1
+00084963: side=1
+00084978: track=62
+0008498c: stream=1
+00084dbb: stream=0
+62.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.258
+62.1    : No flux reversal found
+00084dcf: motor=1
+00084de3: side=1
+00084df7: track=0
+00085096: motor=1
+000850aa: side=1
+000850be: track=63
+00085366: motor=1
+0008537a: side=1
+0008538e: track=62
+000853fa: stream=1
+000857be: stream=0
+62.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.219
+62.1    : No flux reversal found
+62.1    : Read operation failed
+000857d2: motor=1
+000857e6: side=0
+000857fb: track=63
+00085867: stream=1
+00085c6c: stream=0
+63.0    : frev: 61708, drift: 0.816 us, tfer: 351082 B/s, rpm: 358.249
+63.0    : band: 2.399 us, 3.465 us?, 4.827 us, 5.910 us?, 6.742 us?
+63.0    : base: 2.010 us [99.647%], band: 1.999 us, 4.020 us
+63.0    : DEC RX01: OK, trk: 063, sec: 26
+00085c94: motor=1
+00085ca8: side=1
+00085cbd: track=63
+00085cd1: stream=1
+00086116: stream=0
+63.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.269
+63.1    : No flux reversal found
+0008612a: motor=1
+0008613e: side=1
+00086152: track=0
+000863fa: motor=1
+0008640e: side=1
+00086422: track=64
+000866d3: motor=1
+000866e7: side=1
+000866fb: track=63
+00086767: stream=1
+00086b19: stream=0
+63.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.239
+63.1    : No flux reversal found
+63.1    : Read operation failed
+00086b2d: motor=1
+00086b41: side=0
+00086b56: track=64
+00086bc2: stream=1
+00086fc8: stream=0
+64.0    : frev: 62405, drift: 0.142 us, tfer: 355271 B/s, rpm: 358.214
+64.0    : band: 2.399 us, 3.291 us?, 3.788 us?, 4.819 us, 5.534 us?
+64.0    : base: 2.007 us [99.727%], band: 1.998 us, 4.015 us
+64.0    : DEC RX01: OK, trk: 064, sec: 26
+00087004: motor=1
+00087018: side=1
+0008702d: track=64
+00087041: stream=1
+00087471: stream=0
+64.1    : No flux reversal found
+64.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.254
+00087485: motor=1
+00087499: side=1
+000874ad: track=0
+0008775e: motor=1
+00087772: side=1
+00087786: track=65
+00087a40: motor=1
+00087a54: side=1
+00087a68: track=64
+00087ad4: stream=1
+00087f1f: stream=0
+64.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.234
+64.1    : No flux reversal found
+64.1    : Read operation failed
+00087f33: motor=1
+00087f47: side=0
+00087f5c: track=65
+00087fc8: stream=1
+000883cf: stream=0
+65.0    : frev: 61258, drift: 0.458 us, tfer: 349211 B/s, rpm: 358.241
+65.0    : band: 2.398 us, 3.543 us?, 4.826 us, 5.885 us?, 7.428 us?
+65.0    : base: 2.008 us [99.706%], band: 1.998 us, 4.015 us
+65.0    : DEC RX01: OK, trk: 065, sec: 26
+000883f7: motor=1
+0008840b: side=1
+00088420: track=65
+00088434: stream=1
+00088877: stream=0
+65.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.227
+65.1    : No flux reversal found
+0008888c: motor=1
+000888a0: side=1
+000888b4: track=0
+00088b6e: motor=1
+00088b82: side=1
+00088b96: track=66
+00088e59: motor=1
+00088e6d: side=1
+00088e81: track=65
+00088eed: stream=1
+00089325: stream=0
+65.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.253
+65.1    : No flux reversal found
+65.1    : Read operation failed
+00089339: motor=1
+0008934d: side=0
+00089362: track=66
+000893ce: stream=1
+000897d4: stream=0
+66.0    : frev: 60560, drift: 0.058 us, tfer: 344437 B/s, rpm: 358.194
+66.0    : band: 2.395 us, 4.830 us
+66.0    : base: 2.012 us [99.558%], band: 1.997 us, 4.023 us
+66.0    : DEC RX01: OK, trk: 066, sec: 26
+00089810: motor=1
+00089824: side=1
+00089839: track=66
+0008984d: stream=1
+00089c7d: stream=0
+66.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.243
+66.1    : No flux reversal found
+00089c91: motor=1
+00089ca5: side=1
+00089cb9: track=0
+00089f7c: motor=1
+00089f90: side=1
+00089fa4: track=67
+0008a271: motor=1
+0008a285: side=1
+0008a299: track=66
+0008a305: stream=1
+0008a72b: stream=0
+66.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.206
+66.1    : No flux reversal found
+66.1    : Read operation failed
+0008a73f: motor=1
+0008a753: side=0
+0008a768: track=67
+0008a7d4: stream=1
+0008abda: stream=0
+67.0    : frev: 60962, drift: 0.100 us, tfer: 346991 B/s, rpm: 358.248
+67.0    : band: 2.400 us, 3.802 us, 4.829 us, 5.863 us?, 6.401 us?
+67.0    : base: 2.012 us [99.597%], band: 1.999 us, 4.023 us
+67.0    : DEC RX01: OK, trk: 067, sec: 26
+0008ac16: motor=1
+0008ac2a: side=1
+0008ac3f: track=67
+0008ac53: stream=1
+0008b083: stream=0
+67.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.247
+67.1    : No flux reversal found
+0008b098: motor=1
+0008b0ac: side=1
+0008b0c0: track=0
+0008b38d: motor=1
+0008b3a1: side=1
+0008b3b5: track=68
+0008b68b: motor=1
+0008b69f: side=1
+0008b6b3: track=67
+0008b71f: stream=1
+0008bb32: stream=0
+67.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.249
+67.1    : No flux reversal found
+67.1    : Read operation failed
+0008bb46: motor=1
+0008bb5a: side=0
+0008bb6f: track=68
+0008bbdb: stream=1
+0008bfe1: stream=0
+68.0    : frev: 60539, drift: 0.125 us, tfer: 343714 B/s, rpm: 358.230
+68.0    : band: 2.399 us, 3.336 us?, 3.821 us?, 4.825 us, 5.893 us?
+68.0    : base: 2.010 us [99.663%], band: 2.000 us, 4.020 us
+68.0    : DEC RX01: OK, trk: 068, sec: 26
+0008c00a: motor=1
+0008c01e: side=1
+0008c033: track=68
+0008c047: stream=1
+0008c48a: stream=0
+68.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.190
+68.1    : No flux reversal found
+0008c49e: motor=1
+0008c4b2: side=1
+0008c4c6: track=0
+0008c79c: motor=1
+0008c7b0: side=1
+0008c7c4: track=69
+0008caa3: motor=1
+0008cab7: side=1
+0008cacb: track=68
+0008cb37: stream=1
+0008cf38: stream=0
+68.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.239
+68.1    : No flux reversal found
+68.1    : Read operation failed
+0008cf4c: motor=1
+0008cf60: side=0
+0008cf75: track=69
+0008cfe1: stream=1
+0008d3e8: stream=0
+69.0    : frev: 61355, drift: 0.042 us, tfer: 349583 B/s, rpm: 358.191
+69.0    : band: 2.401 us, 3.472 us?, 4.830 us, 5.888 us?, 6.583 us?
+69.0    : base: 2.011 us [99.605%], band: 2.002 us, 4.022 us
+69.0    : DEC RX01: OK, trk: 069, sec: 26
+0008d424: motor=1
+0008d438: side=1
+0008d44d: track=69
+0008d461: stream=1
+0008d890: stream=0
+69.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.267
+69.1    : No flux reversal found
+0008d8a4: motor=1
+0008d8b8: side=1
+0008d8cc: track=0
+0008dbab: motor=1
+0008dbbf: side=1
+0008dbd3: track=70
+0008debb: motor=1
+0008decf: side=1
+0008dee3: track=69
+0008df4f: stream=1
+0008e33e: stream=0
+69.1    : No flux reversal found
+69.1    : Read operation failed
+69.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.201
+0008e352: motor=1
+0008e366: side=0
+0008e37b: track=70
+0008e3e7: stream=1
+0008e7ed: stream=0
+70.0    : frev: 61244, drift: 0.691 us, tfer: 348097 B/s, rpm: 358.242
+70.0    : band: 2.399 us, 3.542 us?, 4.827 us, 5.974 us?, 6.534 us?
+70.0    : base: 2.013 us [99.545%], band: 1.999 us, 4.026 us
+70.0    : DEC RX01: OK, trk: 070, sec: 26
+0008e829: motor=1
+0008e83d: side=1
+0008e852: track=70
+0008e866: stream=1
+0008ec97: stream=0
+70.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.234
+70.1    : No flux reversal found
+0008ecab: motor=1
+0008ecbf: side=1
+0008ecd3: track=0
+0008efbb: motor=1
+0008efcf: side=1
+0008efe3: track=71
+0008f2d4: motor=1
+0008f2e8: side=1
+0008f2fc: track=70
+0008f368: stream=1
+0008f745: stream=0
+70.1    : No flux reversal found
+70.1    : Read operation failed
+70.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.247
+0008f759: motor=1
+0008f76d: side=0
+0008f782: track=71
+0008f7ee: stream=1
+0008fbf4: stream=0
+71.0    : frev: 62269, drift: 0.042 us, tfer: 353736 B/s, rpm: 358.203
+71.0    : band: 2.395 us, 3.664 us?, 4.827 us
+71.0    : base: 2.011 us [99.556%], band: 1.995 us, 4.022 us
+71.0    : DEC RX01: OK, trk: 071, sec: 26
+0008fc30: motor=1
+0008fc44: side=1
+0008fc59: track=71
+0008fc6d: stream=1
+0009009d: stream=0
+71.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.220
+71.1    : No flux reversal found
+000900b1: motor=1
+000900c5: side=1
+000900d9: track=0
+000903ca: motor=1
+000903de: side=1
+000903f2: track=72
+000906ed: motor=1
+00090701: side=1
+00090715: track=71
+00090781: stream=1
+00090b4b: stream=0
+71.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.218
+71.1    : No flux reversal found
+71.1    : Read operation failed
+00090b5f: motor=1
+00090b73: side=0
+00090b88: track=72
+00090bf4: stream=1
+00090ffa: stream=0
+72.0    : frev: 69570, drift: 0.216 us, tfer: 395951 B/s, rpm: 358.202
+72.0    : band: 2.392 us, 4.793 us
+72.0    : base: 1.997 us [99.782%], band: 1.993 us, 3.994 us
+72.0    : DEC RX01: OK, trk: 072, sec: 26
+00091036: motor=1
+0009104a: side=1
+0009105f: track=72
+00091073: stream=1
+000914a3: stream=0
+72.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.239
+72.1    : No flux reversal found
+000914b7: motor=1
+000914cb: side=1
+000914df: track=0
+000917da: motor=1
+000917ee: side=1
+00091802: track=73
+00091b06: motor=1
+00091b1a: side=1
+00091b2e: track=72
+00091b9a: stream=1
+00091f51: stream=0
+72.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.217
+72.1    : No flux reversal found
+72.1    : Read operation failed
+00091f65: motor=1
+00091f79: side=0
+00091f8e: track=73
+00091ffa: stream=1
+00092401: stream=0
+73.0    : frev: 69550, drift: 0.316 us, tfer: 395951 B/s, rpm: 358.228
+73.0    : band: 2.392 us, 4.798 us
+73.0    : base: 1.999 us [99.860%], band: 1.993 us, 3.998 us
+73.0    : DEC RX01: OK, trk: 073, sec: 26
+0009243d: motor=1
+00092451: side=1
+00092466: track=73
+0009247a: stream=1
+000928aa: stream=0
+73.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.197
+73.1    : No flux reversal found
+000928be: motor=1
+000928d2: side=1
+000928e6: track=0
+00092bea: motor=1
+00092bfe: side=1
+00092c12: track=74
+00092f1f: motor=1
+00092f33: side=1
+00092f47: track=73
+00092fb3: stream=1
+00093402: stream=0
+73.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.193
+73.1    : No flux reversal found
+73.1    : Read operation failed
+00093417: motor=1
+0009342b: side=0
+00093440: track=74
+000934ac: stream=1
+000938b2: stream=0
+74.0    : frev: 69585, drift: 0.067 us, tfer: 395951 B/s, rpm: 358.221
+74.0    : band: 2.391 us, 4.795 us
+74.0    : base: 1.998 us [99.808%], band: 1.992 us, 3.996 us
+74.0    : DEC RX01: OK, trk: 074, sec: 26
+000938ee: motor=1
+00093902: side=1
+00093917: track=74
+0009392b: stream=1
+00093d5b: stream=0
+74.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.214
+74.1    : No flux reversal found
+00093d6f: motor=1
+00093d83: side=1
+00093d97: track=0
+000940a4: motor=1
+000940b8: side=1
+000940cc: track=75
+000943e2: motor=1
+000943f6: side=1
+0009440a: track=74
+00094476: stream=1
+000948b4: stream=0
+74.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.186
+74.1    : No flux reversal found
+74.1    : Read operation failed
+000948c8: motor=1
+000948dc: side=0
+000948f1: track=75
+0009495d: stream=1
+00094d64: stream=0
+75.0    : frev: 69594, drift: 0.166 us, tfer: 395951 B/s, rpm: 358.228
+75.0    : band: 2.392 us, 4.795 us
+75.0    : base: 1.998 us [99.820%], band: 1.993 us, 3.996 us
+75.0    : DEC RX01: OK, trk: 075, sec: 26
+00094da0: motor=1
+00094db4: side=1
+00094dc9: track=75
+00094ddd: stream=1
+0009520c: stream=0
+75.1    : No flux reversal found
+75.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.229
+00095220: motor=1
+00095234: side=1
+00095248: track=0
+0009555e: motor=1
+00095572: side=1
+00095586: track=76
+000958a6: motor=1
+000958ba: side=1
+000958ce: track=75
+0009593a: stream=1
+00095d65: stream=0
+75.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.219
+75.1    : No flux reversal found
+75.1    : Read operation failed
+00095d79: motor=1
+00095d8d: side=0
+00095da2: track=76
+00095e0e: stream=1
+00096215: stream=0
+76.0    : frev: 69498, drift: 0.524 us, tfer: 395517 B/s, rpm: 358.206
+76.0    : band: 2.395 us, 4.799 us
+76.0    : base: 1.999 us [99.910%], band: 1.996 us, 3.999 us
+76.0    : DEC RX01: OK, trk: 076, sec: 26
+00096251: motor=1
+00096265: side=1
+0009627a: track=76
+0009628e: stream=1
+000966bd: stream=0
+76.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.235
+76.1    : No flux reversal found
+000966d1: motor=1
+000966e5: side=1
+000966f9: track=0
+00096a19: motor=1
+00096a2d: side=1
+00096a41: track=77
+00096d6a: motor=1
+00096d7e: side=1
+00096d92: track=76
+00096dfe: stream=1
+00097216: stream=0
+76.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.224
+76.1    : No flux reversal found
+76.1    : Read operation failed
+0009722a: motor=1
+0009723e: side=0
+00097253: track=77
+000972bf: stream=1
+000976c4: stream=0
+77.0    : frev: 30745, drift: 0.100 us, tfer: 204938 B/s, rpm: 358.171
+77.0    : band: 1.661 us, 4.482 us, 5.465 us, 13.800 us?, 14.821 us?
+77.0    : base: 1.847 us [89.027%], band: 3.694 us
+77.0    : DEC RX01: <unformatted>
+000976ec: motor=1
+00097700: side=1
+00097715: track=77
+00097729: stream=1
+00097b6f: stream=0
+77.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.232
+77.1    : No flux reversal found
+00097b83: motor=1
+00097b97: side=1
+00097bab: track=0
+00097ed4: motor=1
+00097ee8: side=1
+00097efc: track=78
+0009822e: motor=1
+00098242: side=1
+00098256: track=77
+000982c2: stream=1
+000986c7: stream=0
+77.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.247
+77.1    : No flux reversal found
+77.1    : Read operation failed
+000986db: motor=1
+000986ef: side=0
+00098704: track=78
+00098770: stream=1
+00098b76: stream=0
+78.0    : frev: 28962, drift: 0.941 us, tfer: 197801 B/s, rpm: 358.202
+78.0    : band: 1.666 us, 4.398 us?, 5.343 us?, 13.644 us?, 14.565 us
+78.0    : base: 1.829 us [89.355%], band: 3.658 us
+78.0    : DEC RX01: <unformatted>
+00098b9e: motor=1
+00098bb2: side=1
+00098bc7: track=78
+00098bdb: stream=1
+00099020: stream=0
+78.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.227
+78.1    : No flux reversal found
+00099034: motor=1
+00099048: side=1
+0009905c: track=0
+0009938e: motor=1
+000993a2: side=1
+000993b6: track=79
+000996f1: motor=1
+00099705: side=1
+00099719: track=78
+00099785: stream=1
+00099b78: stream=0
+78.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.244
+78.1    : No flux reversal found
+78.1    : Read operation failed
+00099b8c: motor=1
+00099ba0: side=0
+00099bb5: track=79
+00099c21: stream=1
+0009a027: stream=0
+79.0    : frev: 28928, drift: 0.599 us, tfer: 197801 B/s, rpm: 358.242
+79.0    : band: 1.700 us, 4.437 us, 5.782 us, 13.644 us?, 14.580 us?
+79.0    : base: 1.815 us [88.553%], band: 3.631 us
+79.0    : DEC RX01: <unformatted>
+0009a04f: motor=1
+0009a063: side=1
+0009a078: track=79
+0009a08c: stream=1
+0009a4d1: stream=0
+79.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.210
+79.1    : No flux reversal found
+0009a4e5: motor=1
+0009a4f9: side=1
+0009a50d: track=0
+0009a848: motor=1
+0009a85c: side=1
+0009a870: track=80
+0009abb4: motor=1
+0009abc8: side=1
+0009abdc: track=79
+0009ac48: stream=1
+0009b029: stream=0
+79.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.233
+79.1    : No flux reversal found
+79.1    : Read operation failed
+0009b03d: motor=1
+0009b051: side=0
+0009b066: track=80
+0009b0d2: stream=1
+0009b4d8: stream=0
+80.0    : frev: 29018, drift: 0.067 us, tfer: 197801 B/s, rpm: 358.246
+80.0    : band: 1.657 us, 4.352 us, 5.218 us, 13.748 us?, 14.805 us?
+80.0    : base: 1.840 us [89.823%], band: 3.681 us
+80.0    : DEC RX01: <unformatted>
+0009b500: motor=1
+0009b514: side=1
+0009b529: track=80
+0009b53d: stream=1
+0009b982: stream=0
+80.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.192
+80.1    : No flux reversal found
+0009b996: motor=1
+0009b9aa: side=1
+0009b9be: track=0
+0009bd02: motor=1
+0009bd16: side=1
+0009bd2a: track=81
+0009c078: motor=1
+0009c08c: side=1
+0009c0a0: track=80
+0009c10c: stream=1
+0009c4da: stream=0
+80.1    : frev: 0, drift: 0.000 us, tfer: 0 B/s, rpm: 358.206
+80.1    : No flux reversal found
+80.1    : Read operation failed
+Enjoy your shiny new disk image!
+Please consider helping us to preserve media and continue development:
+www.softpres.org/donate
+0009c4ee: motor=0

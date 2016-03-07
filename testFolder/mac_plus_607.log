@@ -1,0 +1,166 @@
+./dtc -l15 -f/home/bcadmin/Desktop/vasulka_floppies_richard/data/mac_plus_607/track -i0 -f/home/bcadmin/Desktop/vasulka_floppies_richard/data/mac_plus_607.img -i4 -r5 -d0 -p -e83 -t1 -dd0
+000923c1: status=0
+000923d5: status=0
+000923e9: reset=0
+0009283a: info=1, name=KryoFlux DiskSystem, version=2.20s, date=Nov 23 2013, time=19:50:35
+0009284e: info=2, hwid=1, hwrv=1, sck=24027428.5714285, ick=3003428.5714285625, wb=32768, wa=64, wq=8, wt=65535, wm=26
+00092862: device=0
+00092876: density=0
+0009288a: min_track=0
+0009289e: max_track=83
+KryoFlux DiskTool Console, v2.6, uiv.1, Dec 31 2014, 17:40:27
+(c) 2009-2014 KryoFlux Products & Services Ltd.
+Developed by The Software Preservation Society, www.softpres.org
+Licensed for private, non-commercial use only.
+000928b2: motor=1
+00092c33: side=0
+00092c47: track=0
+00092c5b: stream=1
+0009314a: stream=0
+00.0    : frev: 47848, drift: 0.425 us, tfer: 229263 B/s, rpm: 299.737
+00.0    : band: 2.696 us, 5.356 us, 6.644 us?, 7.183 us?, 8.171 us?
+00.0    : base: 1.785 us [56.235%], band: 2.696 us, 5.356 us, 6.644 us?
+00.0    : MFM: <unformatted>
+00093172: motor=1
+00093186: side=1
+0009319b: track=0
+000931af: stream=1
+00093614: stream=0
+00.1    : frev: 49078, drift: 0.191 us, tfer: 233971 B/s, rpm: 299.750
+00.1    : band: 2.686 us, 3.998 us, 5.352 us, 7.108 us?, 8.127 us?
+00.1    : base: 1.784 us [91.436%], band: 2.686 us, 3.998 us, 5.352 us
+00.1    : MFM: <unformatted>
+0009363c: motor=1
+00093650: side=0
+00093665: track=1
+000936d1: stream=1
+00093ba7: stream=0
+01.0    : frev: 50160, drift: 0.691 us, tfer: 240631 B/s, rpm: 299.765
+01.0    : band: 2.695 us, 4.433 us?, 5.348 us, 7.117 us?, 8.133 us?
+01.0    : base: 1.337 us [61.386%], band: 2.695 us, 4.433 us?, 5.348 us
+01.0    : MFM: <unformatted>
+00093be3: motor=1
+00093bf7: side=1
+00093c0c: track=1
+00093c20: stream=1
+00094071: stream=0
+01.1    : frev: 51880, drift: 0.583 us, tfer: 247348 B/s, rpm: 299.767
+01.1    : band: 2.696 us, 4.394 us?, 5.338 us, 7.108 us?, 8.126 us?
+01.1    : base: 2.197 us [51.648%], band: 2.696 us, 4.394 us?, 8.126 us?
+01.1    : MFM: <unformatted>
+00094099: motor=1
+000940ad: side=0
+000940c2: track=2
+00094108: stream=1
+00094606: stream=0
+02.0    : frev: 51950, drift: 0.991 us, tfer: 249200 B/s, rpm: 299.774
+02.0    : band: 2.683 us, 3.660 us, 5.345 us, 7.123 us?, 8.139 us?
+02.0    : base: 1.782 us [89.598%], band: 2.683 us, 3.660 us, 5.345 us
+02.0    : MFM: <unformatted>
+00094642: motor=1
+00094656: side=1
+0009466b: track=2
+0009467f: stream=1
+00094ad0: stream=0
+02.1    : frev: 51890, drift: 0.708 us, tfer: 247348 B/s, rpm: 299.774
+02.1    : band: 2.699 us, 4.430 us?, 5.343 us, 7.127 us?, 8.133 us?
+02.1    : base: 1.336 us [61.429%], band: 2.699 us, 4.430 us?, 5.343 us
+02.1    : MFM: <unformatted>
+00094af8: motor=1
+00094b0c: side=0
+00094b21: track=3
+00094b67: stream=1
+00095065: stream=0
+03.0    : frev: 51956, drift: 0.341 us, tfer: 249200 B/s, rpm: 299.778
+03.0    : band: 2.698 us, 4.437 us?, 5.340 us, 7.174 us?, 8.168 us?
+03.0    : base: 1.335 us [61.394%], band: 2.698 us, 4.437 us?, 5.340 us
+03.0    : MFM: <unformatted>
+000950a1: motor=1
+000950b5: side=1
+000950ca: track=3
+000950de: stream=1
+000955fc: stream=0
+03.1    : frev: 51896, drift: 0.316 us, tfer: 248989 B/s, rpm: 299.778
+03.1    : band: 2.699 us, 4.433 us?, 5.347 us, 7.173 us?, 8.161 us?
+03.1    : base: 1.337 us [61.338%], band: 2.699 us, 4.433 us?, 5.347 us
+03.1    : MFM: <unformatted>
+00095624: motor=1
+00095638: side=0
+0009564d: track=4
+00095693: stream=1
+00095b92: stream=0
+04.0    : frev: 51836, drift: 0.050 us, tfer: 248569 B/s, rpm: 299.781
+04.0    : band: 2.699 us, 4.438 us?, 5.351 us, 7.175 us?, 8.176 us?
+04.0    : base: 1.338 us [61.248%], band: 2.699 us, 4.438 us?, 5.351 us
+04.0    : MFM: <unformatted>
+00095bba: motor=1
+00095bce: side=1
+00095be3: track=4
+00095bf7: stream=1
+00096059: stream=0
+04.1    : frev: 51706, drift: 0.075 us, tfer: 247448 B/s, rpm: 299.777
+04.1    : band: 2.700 us, 4.434 us?, 5.360 us, 7.182 us?, 8.168 us?
+04.1    : base: 1.340 us [61.175%], band: 2.700 us, 4.434 us?, 5.360 us
+04.1    : MFM: <unformatted>
+00096081: motor=1
+00096095: side=0
+000960aa: track=5
+000960f0: stream=1
+000965ee: stream=0
+05.0    : frev: 52069, drift: 0.142 us, tfer: 249833 B/s, rpm: 299.781
+05.0    : band: 2.699 us, 4.437 us?, 5.354 us, 7.176 us?, 8.174 us?
+05.0    : base: 1.338 us [61.219%], band: 2.699 us, 4.437 us?, 5.354 us
+05.0    : MFM: <unformatted>
+00096616: motor=1
+0009662a: side=1
+0009663f: track=5
+00096653: stream=1
+00096ab8: stream=0
+05.1    : frev: 51934, drift: 0.133 us, tfer: 248386 B/s, rpm: 299.777
+05.1    : band: 2.701 us, 4.433 us?, 5.359 us, 7.175 us?, 8.172 us?
+05.1    : base: 1.340 us [61.190%], band: 2.701 us, 4.433 us?, 5.359 us
+05.1    : MFM: <unformatted>
+00096ae0: motor=1
+00096af4: side=0
+00096b09: track=6
+00096b4f: stream=1
+0009704d: stream=0
+06.0    : frev: 51908, drift: 0.766 us, tfer: 248989 B/s, rpm: 299.779
+06.0    : band: 2.699 us, 4.437 us?, 5.351 us, 7.177 us?, 8.176 us?
+06.0    : base: 1.338 us [61.255%], band: 2.699 us, 4.437 us?, 5.351 us
+06.0    : MFM: <unformatted>
+00097076: motor=1
+0009708a: side=1
+0009709f: track=6
+000970b3: stream=1
+00097515: stream=0
+06.1    : frev: 51795, drift: 0.824 us, tfer: 247682 B/s, rpm: 299.775
+06.1    : band: 2.700 us, 4.430 us?, 5.355 us, 7.132 us?, 8.154 us?
+06.1    : base: 1.339 us [61.275%], band: 2.700 us, 4.430 us?, 5.355 us
+06.1    : MFM: <unformatted>
+0009753d: motor=1
+00097551: side=0
+00097566: track=7
+000975ac: stream=1
+00097aab: stream=0
+07.0    : frev: 51970, drift: 0.092 us, tfer: 249200 B/s, rpm: 299.777
+07.0    : band: 2.700 us, 4.436 us?, 5.352 us, 7.175 us?, 8.179 us?
+07.0    : base: 1.338 us [61.256%], band: 2.700 us, 4.436 us?, 5.352 us
+07.0    : MFM: <unformatted>
+00097ae7: motor=1
+00097afb: side=1
+00097b10: track=7
+00097b24: stream=1
+java.io.IOException: Stream closed
+	at java.io.BufferedInputStream.getBufIfOpen(BufferedInputStream.java:162)
+	at java.io.BufferedInputStream.read1(BufferedInputStream.java:272)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:334)
+	at sun.nio.cs.StreamDecoder.readBytes(StreamDecoder.java:283)
+	at sun.nio.cs.StreamDecoder.implRead(StreamDecoder.java:325)
+	at sun.nio.cs.StreamDecoder.read(StreamDecoder.java:177)
+	at java.io.InputStreamReader.read(InputStreamReader.java:184)
+	at java.io.BufferedReader.fill(BufferedReader.java:154)
+	at java.io.BufferedReader.readLine(BufferedReader.java:317)
+	at java.io.BufferedReader.readLine(BufferedReader.java:382)
+	at com.kryoflux.ui.util.processmonitor.InputStreamConsumer.run(Process.scala:90)
+Process finished abnormally

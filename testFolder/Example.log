@@ -1,0 +1,607 @@
+	
+
+    KryoFlux DiskTool Console, v2.6, uiv.1, Dec 31 2014, 17:40:27
+    (c) 2009-2014 KryoFlux Products & Services Ltd.
+    Developed by The Software Preservation Society, www.softpres.org
+    Licensed for private, non-commercial use only.
+     
+    Stream file: test
+     
+    00.0    : frev: 37510, drift: 0.350 us, tfer: 213858 B/s, rpm: 359.587
+    00.0    : base: 4.008 us [99.800%], band: 3.991 us, 8.015 us
+    00.0    : FM: <error>, trk: 000, sec: 10, bad: 10, *H +6
+    00.0    : Bad sector found
+    00.0    : Read operation failed
+    00.1    : frev: 38967, drift: 0.075 us, tfer: 223481 B/s, rpm: 359.588
+    00.1    : base: 4.007 us [99.849%], band: 1.786 us?, 3.997 us, 8.015 us
+    00.1    : FM: <error>, trk: 000, sec: 3, bad: 2, mis: 1, *HS
+    00.1    : Bad sector found
+    00.1    : Read operation failed
+    01.0    : frev: 37699, drift: 0.508 us, tfer: 215500 B/s, rpm: 359.552
+    01.0    : base: 4.010 us [99.743%], band: 1.877 us, 3.988 us, 8.019 us
+    01.0    : FM: <error>, trk: 001, sec: 8, bad: 6, mis: 2, *H +4
+    01.0    : Bad sector found
+    01.0    : Read operation failed
+    01.1    : frev: 37926, drift: 0.674 us, tfer: 217166 B/s, rpm: 359.554
+    01.1    : base: 4.009 us [99.850%], band: 1.798 us?, 4.001 us, 8.017 us
+    01.1    : FM: <error>, trk: 001, sec: 8, bad: 4, mis: 4, *HS +4
+    01.1    : Bad sector found
+    01.1    : Read operation failed
+    02.0    : frev: 37562, drift: 0.766 us, tfer: 214793 B/s, rpm: 359.554
+    02.0    : base: 4.009 us [99.772%], band: 3.990 us, 8.018 us
+    02.0    : FM: <error>, trk: 002, sec: 8, bad: 7, mis: 1, *H
+    02.0    : Bad sector found
+    02.0    : Read operation failed
+    02.1    : frev: 38673, drift: 0.308 us, tfer: 220579 B/s, rpm: 359.516
+    02.1    : base: 4.007 us [99.880%], band: 3.999 us, 8.013 us
+    02.1    : FM: <error>, trk: 002, sec: 9, bad: 5, mis: 4, *HS +5
+    02.1    : Bad sector found
+    02.1    : Read operation failed
+    03.0    : frev: 37553, drift: 0.499 us, tfer: 214558 B/s, rpm: 359.550
+    03.0    : base: 4.009 us [99.817%], band: 4.005 us, 8.017 us
+    03.0    : FM: <error>, trk: 003, sec: 10, bad: 9, mis: 1, *H
+    03.0    : Bad sector found
+    03.0    : Read operation failed
+    03.1    : frev: 39108, drift: 0.083 us, tfer: 223917 B/s, rpm: 359.529
+    03.1    : base: 4.006 us [99.867%], band: 4.004 us, 8.012 us
+    03.1    : FM: <error>, trk: 003, sec: 10, bad: 2, mis: 8, *XHS +2
+    03.1    : Bad sector found
+    03.1    : Read operation failed
+    04.0    : frev: 37353, drift: 0.841 us, tfer: 213394 B/s, rpm: 359.532
+    04.0    : base: 4.008 us [99.796%], band: 3.992 us, 8.017 us
+    04.0    : FM: <error>, trk: 004, sec: 10, bad: 7, mis: 2, *H
+    04.0    : Bad sector found
+    04.0    : Read operation failed
+    04.1    : frev: 38722, drift: 0.366 us, tfer: 220579 B/s, rpm: 359.537
+    04.1    : base: 4.007 us [99.801%], band: 3.990 us, 8.014 us
+    04.1    : FM: <error>, trk: 004, sec: 6, bad: 3, mis: 3, *HS
+    04.1    : Bad sector found
+    04.1    : Read operation failed
+    05.0    : frev: 36961, drift: 0.533 us, tfer: 211784 B/s, rpm: 359.577
+    05.0    : base: 4.010 us [99.776%], band: 3.993 us, 8.020 us
+    05.0    : FM: <error>, trk: 005, sec: 10, bad: 9, mis: 1, *H
+    05.0    : Bad sector found
+    05.0    : Read operation failed
+    05.1    : frev: 38266, drift: 0.516 us, tfer: 218616 B/s, rpm: 359.603
+    05.1    : base: 4.008 us [99.824%], band: 3.994 us, 8.015 us
+    05.1    : FM: <error>, trk: 005, sec: 10, bad: 7, mis: 3, *HS
+    05.1    : Bad sector found
+    05.1    : Read operation failed
+    06.0    : frev: 37079, drift: 0.732 us, tfer: 211784 B/s, rpm: 359.589
+    06.0    : base: 4.008 us [99.841%], band: 3.996 us, 8.015 us
+    06.0    : FM: <error>, trk: 006, sec: 10, bad: 8, mis: 2, *H +3
+    06.0    : Bad sector found
+    06.0    : Read operation failed
+    06.1    : frev: 37923, drift: 0.075 us, tfer: 216687 B/s, rpm: 359.624
+    06.1    : base: 4.009 us [99.807%], band: 3.994 us, 8.017 us
+    06.1    : FM: <error>, trk: 006, sec: 10, bad: 10, *HS +5
+    06.1    : Bad sector found
+    06.1    : Read operation failed
+    07.0    : frev: 37387, drift: 0.316 us, tfer: 213858 B/s, rpm: 359.628
+    07.0    : base: 4.009 us [99.809%], band: 3.995 us, 8.018 us
+    07.0    : FM: <error>, trk: 007, sec: 10, bad: 10, *H +2
+    07.0    : Bad sector found
+    07.0    : Read operation failed
+    07.1    : frev: 37280, drift: 0.092 us, tfer: 212701 B/s, rpm: 359.651
+    07.1    : base: 4.008 us [99.831%], band: 4.004 us, 8.016 us
+    07.1    : FM: <error>, trk: 007, sec: 10, bad: 10, *HS +7
+    07.1    : Bad sector found
+    07.1    : Read operation failed
+    08.0    : frev: 37091, drift: 0.491 us, tfer: 212241 B/s, rpm: 359.641
+    08.0    : base: 4.009 us [99.822%], band: 3.996 us, 8.018 us
+    08.0    : FM: <error>, trk: 008, sec: 10, bad: 7, mis: 1, *H +3
+    08.0    : Bad sector found
+    08.0    : Read operation failed
+    08.1    : frev: 37366, drift: 0.133 us, tfer: 213626 B/s, rpm: 359.659
+    08.1    : base: 4.009 us [99.808%], band: 3.995 us, 8.018 us
+    08.1    : FM: <error>, trk: 008, sec: 10, bad: 10, *HS +5
+    08.1    : Bad sector found
+    08.1    : Read operation failed
+    09.0    : frev: 36455, drift: 0.125 us, tfer: 208858 B/s, rpm: 359.629
+    09.0    : base: 4.011 us [99.787%], band: 2.215 us?, 3.996 us, 8.022 us
+    09.0    : FM: <error>, trk: 009, sec: 10, bad: 9, mis: 1, *H
+    09.0    : Bad sector found
+    09.0    : Read operation failed
+    09.1    : frev: 37193, drift: 0.266 us, tfer: 212701 B/s, rpm: 359.637
+    09.1    : base: 4.007 us [99.846%], band: 4.004 us, 8.014 us
+    09.1    : FM: <error>, trk: 009, sec: 10, bad: 10, *HS +5
+    09.1    : Bad sector found
+    09.1    : Read operation failed
+    10.0    : frev: 36663, drift: 0.308 us, tfer: 209974 B/s, rpm: 359.623
+    10.0    : base: 4.007 us [99.867%], band: 4.001 us, 8.015 us
+    10.0    : FM: <error>, trk: 010, sec: 10, bad: 9, *H +2
+    10.0    : Bad sector found
+    10.0    : Read operation failed
+    10.1    : frev: 37243, drift: 0.058 us, tfer: 212931 B/s, rpm: 359.632
+    10.1    : base: 4.008 us [99.381%], band: 3.941 us, 8.016 us
+    10.1    : FM: <error>, trk: 010, sec: 10, bad: 10, *HS +5
+    10.1    : Bad sector found
+    10.1    : Read operation failed
+    11.0    : frev: 36475, drift: 1.199 us, tfer: 208194 B/s, rpm: 359.624
+    11.0    : base: 4.009 us [99.840%], band: 4.001 us, 7.165 us?, 8.018 us
+    11.0    : FM: <error>, trk: 011, sec: 10, bad: 5, *H +2
+    11.0    : Bad sector found
+    11.0    : Read operation failed
+    11.1    : frev: 37386, drift: 0.425 us, tfer: 213626 B/s, rpm: 359.650
+    11.1    : base: 4.007 us [99.872%], band: 4.000 us, 8.015 us
+    11.1    : FM: <error>, trk: 011, sec: 10, bad: 10, *HS +3
+    11.1    : Bad sector found
+    11.1    : Read operation failed
+    12.0    : frev: 36425, drift: 0.158 us, tfer: 208636 B/s, rpm: 359.634
+    12.0    : base: 4.008 us [99.845%], band: 4.003 us, 8.015 us
+    12.0    : FM: <error>, trk: 012, sec: 10, bad: 6, *H
+    12.0    : Bad sector found
+    12.0    : Read operation failed
+    12.1    : frev: 37262, drift: 0.150 us, tfer: 212931 B/s, rpm: 359.655
+    12.1    : base: 4.005 us [99.908%], band: 4.001 us, 8.010 us
+    12.1    : FM: <error>, trk: 012, sec: 10, bad: 10, *HS +1
+    12.1    : Bad sector found
+    12.1    : Read operation failed
+    13.0    : frev: 37064, drift: 0.408 us, tfer: 212012 B/s, rpm: 359.638
+    13.0    : base: 4.008 us [99.828%], band: 4.004 us, 8.017 us
+    13.0    : FM: <error>, trk: 013, sec: 10, bad: 6, *H
+    13.0    : Bad sector found
+    13.0    : Read operation failed
+    13.1    : frev: 36361, drift: 0.483 us, tfer: 208194 B/s, rpm: 359.653
+    13.1    : base: 4.005 us [99.920%], band: 4.001 us, 8.009 us
+    13.1    : FM: <error>, trk: 013, sec: 10, bad: 10, *HS +1
+    13.1    : Bad sector found
+    13.1    : Read operation failed
+    14.0    : frev: 36931, drift: 0.583 us, tfer: 211102 B/s, rpm: 359.640
+    14.0    : base: 4.008 us [99.834%], band: 4.004 us, 8.016 us
+    14.0    : FM: <error>, trk: 014, sec: 10, bad: 2, *H
+    14.0    : Bad sector found
+    14.0    : Read operation failed
+    14.1    : frev: 36560, drift: 0.491 us, tfer: 209303 B/s, rpm: 359.673
+    14.1    : base: 4.005 us [99.903%], band: 2.123 us?, 4.002 us, 8.010 us
+    14.1    : FM: <error>, trk: 014, sec: 10, bad: 10, *HS +3
+    14.1    : Bad sector found
+    14.1    : Read operation failed
+    15.0    : frev: 37003, drift: 0.058 us, tfer: 211784 B/s, rpm: 359.653
+    15.0    : base: 4.007 us [99.852%], band: 2.192 us?, 4.005 us, 8.013 us
+    15.0    : FM: <error>, trk: 015, sec: 10, bad: 1, *H
+    15.0    : Bad sector found
+    15.0    : Read operation failed
+    15.1    : frev: 37059, drift: 0.724 us, tfer: 211329 B/s, rpm: 359.675
+    15.1    : base: 4.006 us [99.881%], band: 4.003 us, 8.011 us
+    15.1    : FM: <error>, trk: 015, sec: 10, bad: 6, *HS +1
+    15.1    : Bad sector found
+    15.1    : Read operation failed
+    16.0    : frev: 36994, drift: 0.491 us, tfer: 211556 B/s, rpm: 359.666
+    16.0    : base: 4.008 us [99.848%], band: 4.003 us, 8.015 us
+    16.0    : FM: OK*, trk: 016, sec: 10, *H
+    16.1    : frev: 37284, drift: 0.383 us, tfer: 212150 B/s, rpm: 359.689
+    16.1    : base: 4.006 us [99.877%], band: 2.210 us?, 4.002 us, 8.013 us
+    16.1    : FM: <error>, trk: 016, sec: 10, bad: 5, *HS
+    16.1    : Bad sector found
+    16.1    : Read operation failed
+    17.0    : frev: 36270, drift: 0.042 us, tfer: 206880 B/s, rpm: 359.681
+    17.0    : base: 4.009 us [99.841%], band: 4.001 us, 8.018 us
+    17.0    : FM: OK*, trk: 017, sec: 10, *H
+    17.1    : frev: 36968, drift: 0.042 us, tfer: 211556 B/s, rpm: 359.696
+    17.1    : base: 4.008 us [99.835%], band: 4.003 us, 8.017 us
+    17.1    : FM: <error>, trk: 017, sec: 10, bad: 3, *HS
+    17.1    : Bad sector found
+    17.1    : Read operation failed
+    18.0    : frev: 36748, drift: 0.499 us, tfer: 210198 B/s, rpm: 359.695
+    18.0    : base: 4.009 us [99.835%], band: 4.003 us, 8.017 us
+    18.0    : FM: OK*, trk: 018, sec: 10, *H
+    18.1    : frev: 36854, drift: 0.075 us, tfer: 210875 B/s, rpm: 359.700
+    18.1    : base: 4.006 us [99.878%], band: 4.002 us, 8.012 us
+    18.1    : FM: <error>, trk: 018, sec: 10, bad: 1, *HS
+    18.1    : Bad sector found
+    18.1    : Read operation failed
+    19.0    : frev: 38624, drift: 0.125 us, tfer: 221075 B/s, rpm: 359.690
+    19.0    : base: 4.009 us [99.818%], band: 4.004 us, 8.018 us
+    19.0    : FM: OK*, trk: 019, sec: 10, *H
+    19.1    : frev: 36720, drift: 0.200 us, tfer: 210198 B/s, rpm: 359.705
+    19.1    : base: 4.007 us [99.870%], band: 4.002 us, 7.142 us?, 8.013 us
+    19.1    : FM: <error>, trk: 019, sec: 10, bad: 2, *HS
+    19.1    : Bad sector found
+    19.1    : Read operation failed
+    20.0    : frev: 40714, drift: 0.449 us, tfer: 232312 B/s, rpm: 359.706
+    20.0    : base: 4.006 us [99.860%], band: 4.006 us, 8.011 us
+    20.0    : FM: OK*, trk: 020, sec: 10, *H
+    20.1    : frev: 36903, drift: 0.092 us, tfer: 211102 B/s, rpm: 359.704
+    20.1    : base: 4.007 us [99.868%], band: 4.002 us, 8.014 us
+    20.1    : FM: <error>, trk: 020, sec: 10, bad: 3, *HS
+    20.1    : Bad sector found
+    20.1    : Read operation failed
+    21.0    : frev: 40726, drift: 0.092 us, tfer: 232312 B/s, rpm: 359.701
+    21.0    : base: 4.008 us [99.832%], band: 4.005 us, 8.015 us
+    21.0    : FM: OK*, trk: 021, sec: 10, *H
+    21.1    : frev: 37093, drift: 0.042 us, tfer: 212241 B/s, rpm: 359.704
+    21.1    : base: 4.007 us [99.872%], band: 4.002 us, 8.014 us
+    21.1    : FM: OK*, trk: 021, sec: 10, *HS
+    22.0    : frev: 40732, drift: 0.566 us, tfer: 232586 B/s, rpm: 359.700
+    22.0    : base: 4.010 us [99.803%], band: 4.004 us, 8.019 us
+    22.0    : FM: OK*, trk: 022, sec: 10, *H
+    22.1    : frev: 36936, drift: 0.067 us, tfer: 211329 B/s, rpm: 359.712
+    22.1    : base: 4.008 us [99.865%], band: 4.001 us, 8.016 us
+    22.1    : FM: OK*, trk: 022, sec: 10, *HS
+    23.0    : frev: 40738, drift: 0.882 us, tfer: 232586 B/s, rpm: 359.710
+    23.0    : base: 4.009 us [99.805%], band: 4.005 us, 8.019 us
+    23.0    : FM: OK*, trk: 023, sec: 10, *H
+    23.1    : frev: 37002, drift: 0.083 us, tfer: 211556 B/s, rpm: 359.710
+    23.1    : base: 4.009 us [99.837%], band: 4.002 us, 8.018 us
+    23.1    : FM: OK*, trk: 023, sec: 10, *HS
+    24.0    : frev: 40718, drift: 0.591 us, tfer: 232312 B/s, rpm: 359.706
+    24.0    : base: 4.008 us [99.832%], band: 4.004 us, 8.016 us
+    24.0    : FM: OK*, trk: 024, sec: 10, *H
+    24.1    : frev: 36974, drift: 0.624 us, tfer: 211556 B/s, rpm: 359.709
+    24.1    : base: 4.008 us [99.848%], band: 4.002 us, 8.016 us
+    24.1    : FM: OK*, trk: 024, sec: 10, *HS
+    25.0    : frev: 40723, drift: 0.108 us, tfer: 232312 B/s, rpm: 359.712
+    25.0    : base: 4.003 us [99.904%], band: 4.005 us, 8.006 us
+    25.0    : FM: OK*, trk: 025, sec: 10, *H
+    25.1    : frev: 37138, drift: 0.092 us, tfer: 212471 B/s, rpm: 359.709
+    25.1    : base: 4.007 us [99.854%], band: 4.003 us, 8.014 us
+    25.1    : FM: OK*, trk: 025, sec: 10, *HS
+    26.0    : frev: 40732, drift: 0.474 us, tfer: 232312 B/s, rpm: 359.711
+    26.0    : base: 4.004 us [99.882%], band: 4.006 us, 8.009 us
+    26.0    : FM: OK*, trk: 026, sec: 10, *H
+    26.1    : frev: 37113, drift: 0.117 us, tfer: 212241 B/s, rpm: 359.709
+    26.1    : base: 4.008 us [99.849%], band: 4.003 us, 8.015 us
+    26.1    : FM: OK*, trk: 026, sec: 10, *HS +1
+    27.0    : frev: 40744, drift: 0.516 us, tfer: 232586 B/s, rpm: 359.707
+    27.0    : base: 4.005 us [99.882%], band: 4.005 us, 8.009 us
+    27.0    : FM: OK*, trk: 027, sec: 10, *H
+    27.1    : frev: 37070, drift: 0.142 us, tfer: 212012 B/s, rpm: 359.706
+    27.1    : base: 4.008 us [99.846%], band: 4.003 us, 8.016 us
+    27.1    : FM: OK*, trk: 027, sec: 10, *HS
+    28.0    : frev: 40730, drift: 0.108 us, tfer: 232586 B/s, rpm: 359.710
+    28.0    : base: 4.009 us [99.824%], band: 4.003 us, 8.018 us
+    28.0    : FM: OK*, trk: 028, sec: 10, *H
+    28.1    : frev: 36942, drift: 0.166 us, tfer: 211329 B/s, rpm: 359.714
+    28.1    : base: 4.008 us [99.847%], band: 4.003 us, 8.016 us
+    28.1    : FM: OK*, trk: 028, sec: 10, *HS
+    29.0    : frev: 40736, drift: 0.458 us, tfer: 232312 B/s, rpm: 359.706
+    29.0    : base: 4.009 us [99.830%], band: 4.003 us, 8.017 us
+    29.0    : FM: OK*, trk: 029, sec: 10, *H
+    29.1    : frev: 37070, drift: 0.341 us, tfer: 211784 B/s, rpm: 359.718
+    29.1    : base: 4.009 us [99.833%], band: 4.002 us, 8.018 us
+    29.1    : FM: OK*, trk: 029, sec: 10, *HS +1
+    30.0    : frev: 40744, drift: 0.133 us, tfer: 232586 B/s, rpm: 359.703
+    30.0    : base: 4.007 us [99.855%], band: 4.004 us, 8.014 us
+    30.0    : FM: OK*, trk: 030, sec: 10, *H
+    30.1    : frev: 37052, drift: 0.083 us, tfer: 212012 B/s, rpm: 359.715
+    30.1    : base: 4.008 us [99.845%], band: 4.003 us, 8.016 us
+    30.1    : FM: OK*, trk: 030, sec: 10, *HS
+    31.0    : frev: 40750, drift: 0.533 us, tfer: 232586 B/s, rpm: 359.707
+    31.0    : base: 4.004 us [99.913%], band: 4.003 us, 8.008 us
+    31.0    : FM: OK*, trk: 031, sec: 10, *H
+    31.1    : frev: 36953, drift: 0.233 us, tfer: 211329 B/s, rpm: 359.729
+    31.1    : base: 4.008 us [99.845%], band: 4.003 us, 8.016 us
+    31.1    : FM: OK*, trk: 031, sec: 10, *HS
+    32.0    : frev: 40712, drift: 0.533 us, tfer: 232312 B/s, rpm: 359.698
+    32.0    : base: 4.006 us [99.869%], band: 4.003 us, 8.013 us
+    32.0    : FM: OK*, trk: 032, sec: 10, *H
+    32.1    : frev: 36686, drift: 0.166 us, tfer: 209750 B/s, rpm: 359.729
+    32.1    : base: 4.007 us [99.858%], band: 4.003 us, 8.014 us
+    32.1    : FM: OK*, trk: 032, sec: 10, *HS
+    33.0    : frev: 40719, drift: 0.092 us, tfer: 232312 B/s, rpm: 359.710
+    33.0    : base: 4.006 us [99.868%], band: 4.004 us, 8.012 us
+    33.0    : FM: OK*, trk: 033, sec: 10, *H
+    33.1    : frev: 36954, drift: 0.067 us, tfer: 211102 B/s, rpm: 359.725
+    33.1    : base: 4.008 us [99.853%], band: 4.002 us, 8.015 us
+    33.1    : FM: OK*, trk: 033, sec: 10, *HS
+    34.0    : frev: 40714, drift: 0.100 us, tfer: 232312 B/s, rpm: 359.714
+    34.0    : base: 4.009 us [99.820%], band: 4.004 us, 8.017 us
+    34.0    : FM: OK*, trk: 034, sec: 10, *H
+    34.1    : frev: 36903, drift: 0.400 us, tfer: 211102 B/s, rpm: 359.730
+    34.1    : base: 4.007 us [99.858%], band: 4.002 us, 8.015 us
+    34.1    : FM: OK*, trk: 034, sec: 10, *HS
+    35.0    : frev: 40728, drift: 0.083 us, tfer: 232312 B/s, rpm: 359.706
+    35.0    : base: 4.006 us [99.856%], band: 4.004 us, 8.013 us
+    35.0    : FM: OK*, trk: 035, sec: 10, *H
+    35.1    : frev: 36948, drift: 0.474 us, tfer: 211556 B/s, rpm: 359.731
+    35.1    : base: 4.008 us [99.850%], band: 4.002 us, 8.016 us
+    35.1    : FM: OK*, trk: 035, sec: 10, *HS
+    36.0    : frev: 40724, drift: 0.133 us, tfer: 232586 B/s, rpm: 359.714
+    36.0    : base: 4.006 us [99.870%], band: 4.004 us, 8.011 us
+    36.0    : FM: OK*, trk: 036, sec: 10, *H
+    36.1    : frev: 37046, drift: 0.558 us, tfer: 210785 B/s, rpm: 359.733
+    36.1    : base: 4.007 us [99.872%], band: 4.002 us, 8.013 us
+    36.1    : FM: OK*, trk: 036, sec: 10, *HS
+    37.0    : frev: 40730, drift: 0.108 us, tfer: 232586 B/s, rpm: 359.716
+    37.0    : base: 4.003 us [99.936%], band: 4.001 us, 8.006 us
+    37.0    : FM: OK*, trk: 037, sec: 10, *H
+    37.1    : frev: 36668, drift: 0.150 us, tfer: 209974 B/s, rpm: 359.737
+    37.1    : base: 4.007 us [99.872%], band: 4.002 us, 8.013 us
+    37.1    : FM: OK*, trk: 037, sec: 10, *HS
+    38.0    : frev: 40728, drift: 0.166 us, tfer: 232586 B/s, rpm: 359.718
+    38.0    : base: 4.002 us [99.949%], band: 4.002 us, 8.004 us
+    38.0    : FM: OK*, trk: 038, sec: 10, *H
+    38.1    : frev: 37005, drift: 0.558 us, tfer: 211784 B/s, rpm: 359.737
+    38.1    : base: 4.007 us [99.857%], band: 4.002 us, 8.015 us
+    38.1    : FM: OK*, trk: 038, sec: 10, *HS
+    39.0    : frev: 40730, drift: 0.175 us, tfer: 233257 B/s, rpm: 359.726
+    39.0    : base: 4.002 us [99.920%], band: 4.005 us, 8.004 us
+    39.0    : FM: OK*, trk: 039, sec: 10, *H
+    39.1    : frev: 36110, drift: 0.083 us, tfer: 206445 B/s, rpm: 359.744
+    39.1    : base: 4.008 us [99.844%], band: 4.003 us, 8.016 us
+    39.1    : FM: OK*, trk: 039, sec: 10, *HS
+    40.0    : frev: 40728, drift: 0.541 us, tfer: 232586 B/s, rpm: 359.707
+    40.0    : base: 4.004 us [99.892%], band: 4.005 us, 8.008 us
+    40.0    : FM: OK*, trk: 040, sec: 10, *H
+    40.1    : frev: 36455, drift: 0.083 us, tfer: 208636 B/s, rpm: 359.706
+    40.1    : base: 4.006 us [99.871%], band: 4.004 us, 8.012 us
+    40.1    : FM: OK*, trk: 040, sec: 10, *HS
+    41.0    : frev: 40734, drift: 0.449 us, tfer: 233494 B/s, rpm: 359.712
+    41.0    : base: 4.006 us [99.890%], band: 4.002 us, 8.011 us
+    41.0    : FM: OK*, trk: 041, sec: 10, *H
+    41.1    : frev: 37078, drift: 0.058 us, tfer: 212012 B/s, rpm: 359.724
+    41.1    : base: 4.008 us [99.848%], band: 4.002 us, 8.016 us
+    41.1    : FM: OK*, trk: 041, sec: 10, *HS
+    42.0    : frev: 40726, drift: 0.075 us, tfer: 232312 B/s, rpm: 359.732
+    42.0    : base: 4.011 us [99.788%], band: 4.003 us, 8.023 us
+    42.0    : FM: OK*, trk: 042, sec: 10, *H
+    42.1    : frev: 37138, drift: 0.591 us, tfer: 212012 B/s, rpm: 359.736
+    42.1    : base: 4.009 us [99.827%], band: 4.002 us, 8.019 us
+    42.1    : FM: OK*, trk: 042, sec: 10, *HS
+    43.0    : frev: 40732, drift: 0.533 us, tfer: 232586 B/s, rpm: 359.740
+    43.0    : base: 4.007 us [99.850%], band: 4.004 us, 8.014 us
+    43.0    : FM: OK*, trk: 043, sec: 10, *H
+    43.1    : frev: 37386, drift: 0.083 us, tfer: 214091 B/s, rpm: 359.741
+    43.1    : base: 4.009 us [99.844%], band: 4.002 us, 8.017 us
+    43.1    : FM: OK*, trk: 043, sec: 10, *HS
+    44.0    : frev: 40728, drift: 0.075 us, tfer: 232586 B/s, rpm: 359.730
+    44.0    : base: 4.004 us [99.907%], band: 4.004 us, 8.007 us
+    44.0    : FM: OK*, trk: 044, sec: 10, *H
+    44.1    : frev: 37068, drift: 0.716 us, tfer: 212012 B/s, rpm: 359.745
+    44.1    : base: 4.007 us [99.866%], band: 4.001 us, 8.015 us
+    44.1    : FM: OK*, trk: 044, sec: 10, *HS
+    45.0    : frev: 40741, drift: 0.441 us, tfer: 232586 B/s, rpm: 359.744
+    45.0    : base: 4.005 us [99.898%], band: 4.003 us, 8.009 us
+    45.0    : FM: OK*, trk: 045, sec: 10, *H
+    45.1    : frev: 37186, drift: 0.158 us, tfer: 212701 B/s, rpm: 359.751
+    45.1    : base: 4.007 us [99.872%], band: 4.001 us, 8.015 us
+    45.1    : FM: OK*, trk: 045, sec: 10, *HS
+    46.0    : frev: 40742, drift: 0.058 us, tfer: 232586 B/s, rpm: 359.742
+    46.0    : base: 4.005 us [99.893%], band: 4.003 us, 8.010 us
+    46.0    : FM: OK*, trk: 046, sec: 10, *H
+    46.1    : frev: 37402, drift: 0.874 us, tfer: 214091 B/s, rpm: 359.746
+    46.1    : base: 4.008 us [99.847%], band: 4.002 us, 8.016 us
+    46.1    : FM: OK*, trk: 046, sec: 10, *HS
+    47.0    : frev: 40747, drift: 0.624 us, tfer: 232586 B/s, rpm: 359.739
+    47.0    : base: 4.006 us [99.891%], band: 4.001 us, 8.012 us
+    47.0    : FM: OK*, trk: 047, sec: 10, *H
+    47.1    : frev: 37120, drift: 0.524 us, tfer: 212012 B/s, rpm: 359.748
+    47.1    : base: 4.008 us [99.863%], band: 4.000 us, 8.016 us
+    47.1    : FM: OK*, trk: 047, sec: 10, *HS
+    48.0    : frev: 40722, drift: 0.058 us, tfer: 232586 B/s, rpm: 359.740
+    48.0    : base: 4.005 us [99.879%], band: 4.004 us, 8.011 us
+    48.0    : FM: OK*, trk: 048, sec: 10, *H
+    48.1    : frev: 37412, drift: 0.125 us, tfer: 213858 B/s, rpm: 359.744
+    48.1    : base: 4.009 us [99.842%], band: 4.002 us, 8.017 us
+    48.1    : FM: OK*, trk: 048, sec: 10, *HS
+    49.0    : frev: 40728, drift: 0.092 us, tfer: 232586 B/s, rpm: 359.733
+    49.0    : base: 4.005 us [99.901%], band: 4.003 us, 8.009 us
+    49.0    : FM: OK*, trk: 049, sec: 10, *H
+    49.1    : frev: 36990, drift: 0.133 us, tfer: 211329 B/s, rpm: 359.737
+    49.1    : base: 4.008 us [99.859%], band: 4.001 us, 8.016 us
+    49.1    : FM: OK*, trk: 049, sec: 10, *HS
+    50.0    : frev: 40726, drift: 0.300 us, tfer: 232586 B/s, rpm: 359.733
+    50.0    : base: 4.003 us [99.921%], band: 4.003 us, 8.007 us
+    50.0    : FM: OK*, trk: 050, sec: 10, *H
+    50.1    : frev: 37255, drift: 0.358 us, tfer: 212931 B/s, rpm: 359.741
+    50.1    : base: 4.008 us [99.842%], band: 4.002 us, 8.017 us
+    50.1    : FM: OK*, trk: 050, sec: 10, *HS
+    51.0    : frev: 40742, drift: 0.083 us, tfer: 232586 B/s, rpm: 359.741
+    51.0    : base: 3.999 us [99.963%], band: 4.003 us, 7.999 us
+    51.0    : FM: OK*, trk: 051, sec: 10, *H
+    51.1    : frev: 36991, drift: 1.057 us, tfer: 211784 B/s, rpm: 359.751
+    51.1    : base: 4.007 us [99.869%], band: 4.001 us, 8.014 us
+    51.1    : FM: OK*, trk: 051, sec: 10, *HS
+    52.0    : frev: 40734, drift: 0.225 us, tfer: 232586 B/s, rpm: 359.742
+    52.0    : base: 4.006 us [99.877%], band: 4.003 us, 8.012 us
+    52.0    : FM: OK*, trk: 052, sec: 10, *H
+    52.1    : frev: 37260, drift: 0.117 us, tfer: 212701 B/s, rpm: 359.755
+    52.1    : base: 4.008 us [98.006%], band: 4.223 us?, 8.016 us
+    52.1    : FM: OK*, trk: 052, sec: 10, *HS
+    53.0    : frev: 40748, drift: 0.133 us, tfer: 232586 B/s, rpm: 359.752
+    53.0    : base: 4.009 us [99.824%], band: 4.003 us, 8.018 us
+    53.0    : FM: OK*, trk: 053, sec: 10, *H
+    53.1    : frev: 37719, drift: 0.991 us, tfer: 215500 B/s, rpm: 359.760
+    53.1    : base: 4.009 us [99.841%], band: 4.002 us, 8.017 us
+    53.1    : FM: OK*, trk: 053, sec: 10, *HS
+    54.0    : frev: 40731, drift: 0.150 us, tfer: 232586 B/s, rpm: 359.748
+    54.0    : base: 4.009 us [99.823%], band: 4.002 us, 8.019 us
+    54.0    : FM: OK*, trk: 054, sec: 10, *H
+    54.1    : frev: 40666, drift: 0.741 us, tfer: 232783 B/s, rpm: 359.758
+    54.1    : base: 4.006 us [99.862%], band: 4.004 us, 8.013 us
+    54.1    : FM: OK*, trk: 054, sec: 10, *HS
+    55.0    : frev: 40746, drift: 0.466 us, tfer: 232586 B/s, rpm: 359.747
+    55.0    : base: 4.008 us [99.845%], band: 4.003 us, 8.016 us
+    55.0    : FM: OK*, trk: 055, sec: 10, *H
+    55.1    : frev: 40674, drift: 0.117 us, tfer: 233020 B/s, rpm: 359.754
+    55.1    : base: 4.006 us [99.869%], band: 4.004 us, 8.012 us
+    55.1    : FM: OK*, trk: 055, sec: 10, *HS
+    56.0    : frev: 40730, drift: 0.549 us, tfer: 232586 B/s, rpm: 359.744
+    56.0    : base: 4.007 us [99.872%], band: 4.002 us, 8.013 us
+    56.0    : FM: OK*, trk: 056, sec: 10, *H
+    56.1    : frev: 40659, drift: 0.666 us, tfer: 232783 B/s, rpm: 359.751
+    56.1    : base: 4.008 us [99.833%], band: 4.004 us, 8.016 us
+    56.1    : FM: OK*, trk: 056, sec: 10, *HS
+    57.0    : frev: 40744, drift: 0.250 us, tfer: 232586 B/s, rpm: 359.743
+    57.0    : base: 4.005 us [99.892%], band: 4.002 us, 8.011 us
+    57.0    : FM: OK*, trk: 057, sec: 10, *H
+    57.1    : frev: 40669, drift: 0.108 us, tfer: 233020 B/s, rpm: 359.750
+    57.1    : base: 4.007 us [99.853%], band: 4.004 us, 8.013 us
+    57.1    : FM: OK*, trk: 057, sec: 10, *HS
+    58.0    : frev: 40732, drift: 0.050 us, tfer: 232586 B/s, rpm: 359.751
+    58.0    : base: 4.006 us [99.876%], band: 4.002 us, 8.013 us
+    58.0    : FM: OK*, trk: 058, sec: 10, *H
+    58.1    : frev: 40660, drift: 0.100 us, tfer: 232783 B/s, rpm: 359.752
+    58.1    : base: 4.005 us [99.877%], band: 4.005 us, 8.010 us
+    58.1    : FM: OK*, trk: 058, sec: 10, *HS
+    59.0    : frev: 40744, drift: 0.558 us, tfer: 232586 B/s, rpm: 359.753
+    59.0    : base: 4.003 us [99.932%], band: 4.002 us, 8.006 us
+    59.0    : FM: OK*, trk: 059, sec: 10, *H
+    59.1    : frev: 40675, drift: 0.533 us, tfer: 233020 B/s, rpm: 359.759
+    59.1    : base: 4.002 us [99.933%], band: 4.004 us, 8.004 us
+    59.1    : FM: OK*, trk: 059, sec: 10, *HS
+    60.0    : frev: 40738, drift: 0.574 us, tfer: 232586 B/s, rpm: 359.754
+    60.0    : base: 4.007 us [99.879%], band: 3.999 us, 8.014 us
+    60.0    : FM: OK*, trk: 060, sec: 10, *H
+    60.1    : frev: 40668, drift: 0.333 us, tfer: 233020 B/s, rpm: 359.758
+    60.1    : base: 4.002 us [99.928%], band: 4.004 us, 8.005 us
+    60.1    : FM: OK*, trk: 060, sec: 10, *HS
+    61.0    : frev: 40749, drift: 0.316 us, tfer: 232586 B/s, rpm: 359.760
+    61.0    : base: 4.005 us [99.907%], band: 3.998 us, 8.009 us
+    61.0    : FM: OK*, trk: 061, sec: 10, *H
+    61.1    : frev: 40682, drift: 0.716 us, tfer: 233257 B/s, rpm: 359.755
+    61.1    : base: 4.004 us [99.906%], band: 4.003 us, 8.008 us
+    61.1    : FM: OK*, trk: 061, sec: 10, *HS
+    62.0    : frev: 40746, drift: 0.408 us, tfer: 232586 B/s, rpm: 359.761
+    62.0    : base: 4.005 us [99.923%], band: 4.000 us, 8.009 us
+    62.0    : FM: OK*, trk: 062, sec: 10, *H
+    62.1    : frev: 40676, drift: 0.741 us, tfer: 233020 B/s, rpm: 359.762
+    62.1    : base: 4.005 us [99.874%], band: 4.004 us, 8.011 us
+    62.1    : FM: OK*, trk: 062, sec: 10, *HS
+    63.0    : frev: 40752, drift: 0.524 us, tfer: 232586 B/s, rpm: 359.757
+    63.0    : base: 4.002 us [99.942%], band: 3.998 us, 8.005 us
+    63.0    : FM: OK*, trk: 063, sec: 10, *H
+    63.1    : frev: 40684, drift: 0.591 us, tfer: 233257 B/s, rpm: 359.761
+    63.1    : base: 4.002 us [99.927%], band: 4.005 us, 8.004 us
+    63.1    : FM: OK*, trk: 063, sec: 10, *HS
+    64.0    : frev: 40712, drift: 0.533 us, tfer: 232312 B/s, rpm: 359.761
+    64.0    : base: 4.002 us [99.956%], band: 3.998 us, 8.003 us
+    64.0    : FM: OK*, trk: 064, sec: 10, *H
+    64.1    : frev: 40638, drift: 0.067 us, tfer: 232783 B/s, rpm: 359.759
+    64.1    : base: 3.997 us [99.918%], band: 4.005 us, 7.995 us
+    64.1    : FM: OK*, trk: 064, sec: 10, *HS
+    65.0    : frev: 40717, drift: 0.108 us, tfer: 232586 B/s, rpm: 359.768
+    65.0    : base: 4.006 us [99.896%], band: 4.000 us, 8.012 us
+    65.0    : FM: OK*, trk: 065, sec: 10, *H
+    65.1    : frev: 40647, drift: 0.308 us, tfer: 232783 B/s, rpm: 359.765
+    65.1    : base: 4.004 us [99.895%], band: 4.005 us, 8.007 us
+    65.1    : FM: OK*, trk: 065, sec: 10, *HS
+    66.0    : frev: 39951, drift: 0.549 us, tfer: 229598 B/s, rpm: 359.765
+    66.0    : base: 3.999 us [99.977%], band: 1.837 us, 4.000 us, 7.998 us
+    66.0    : FM: OK*, trk: 066, sec: 10, *H
+    66.1    : frev: 40650, drift: 0.782 us, tfer: 232783 B/s, rpm: 359.764
+    66.1    : base: 4.005 us [99.890%], band: 4.004 us, 8.009 us
+    66.1    : FM: OK*, trk: 066, sec: 10, *HS
+    67.0    : frev: 40637, drift: 0.466 us, tfer: 231764 B/s, rpm: 359.764
+    67.0    : base: 4.004 us [99.926%], band: 4.000 us, 8.009 us
+    67.0    : FM: OK*, trk: 067, sec: 10, *H
+    67.1    : frev: 40654, drift: 0.499 us, tfer: 233020 B/s, rpm: 359.760
+    67.1    : base: 4.008 us [99.836%], band: 4.004 us, 8.016 us
+    67.1    : FM: OK*, trk: 067, sec: 10, *HS
+    68.0    : frev: 39292, drift: 1.565 us, tfer: 226685 B/s, rpm: 359.762
+    68.0    : base: 3.868 us [97.797%], band: 1.852 us, 3.999 us, 7.737 us
+    68.0    : FM: <error>, trk: 068, sec: 10, bad: 2, mis: 1, *H
+    68.0    : Bad sector found
+    68.0    : Read operation failed
+    68.1    : frev: 40658, drift: 0.175 us, tfer: 232783 B/s, rpm: 359.754
+    68.1    : base: 4.008 us [99.847%], band: 4.003 us, 8.016 us
+    68.1    : FM: OK*, trk: 068, sec: 10, *HS
+    69.0    : frev: 40457, drift: 0.683 us, tfer: 231491 B/s, rpm: 359.755
+    69.0    : base: 3.998 us [99.417%], band: 2.009 us, 4.067 us, 7.997 us
+    69.0    : FM: <error>, trk: 069, sec: 10, bad: 3, mis: 2, *H +1
+    69.0    : Bad sector found
+    69.0    : Read operation failed
+    69.1    : frev: 40668, drift: 0.092 us, tfer: 233020 B/s, rpm: 359.750
+    69.1    : base: 4.005 us [99.890%], band: 4.004 us, 8.009 us
+    69.1    : FM: OK*, trk: 069, sec: 10, *HS
+    70.0    : frev: 40643, drift: 0.599 us, tfer: 232037 B/s, rpm: 359.762
+    70.0    : base: 3.986 us [99.315%], band: 3.947 us, 7.971 us
+    70.0    : FM: <error>, trk: 070, sec: 10, bad: 2, mis: 1, *H
+    70.0    : Bad sector found
+    70.0    : Read operation failed
+    70.1    : frev: 40660, drift: 0.957 us, tfer: 233020 B/s, rpm: 359.752
+    70.1    : base: 4.004 us [99.895%], band: 4.005 us, 8.008 us
+    70.1    : FM: OK*, trk: 070, sec: 10, *HS
+    71.0    : frev: 40736, drift: 0.083 us, tfer: 232586 B/s, rpm: 359.758
+    71.0    : base: 4.007 us [98.847%], band: 4.125 us, 8.013 us
+    71.0    : FM: OK*, trk: 071, sec: 10, *H
+    71.1    : frev: 40670, drift: 0.083 us, tfer: 233020 B/s, rpm: 359.759
+    71.1    : base: 4.004 us [99.160%], band: 4.093 us, 8.008 us
+    71.1    : FM: OK*, trk: 071, sec: 10, *HS
+    72.0    : frev: 40714, drift: 0.549 us, tfer: 232312 B/s, rpm: 359.764
+    72.0    : base: 3.973 us [99.039%], band: 2.176 us?, 3.940 us, 7.945 us
+    72.0    : FM: <error>, trk: 072, sec: 10, bad: 3, *H
+    72.0    : Bad sector found
+    72.0    : Read operation failed
+    72.1    : frev: 40654, drift: 0.541 us, tfer: 233020 B/s, rpm: 359.763
+    72.1    : base: 4.005 us [99.682%], band: 3.971 us, 8.009 us
+    72.1    : FM: OK*, trk: 072, sec: 10, *HS
+    73.0    : frev: 40730, drift: 0.100 us, tfer: 232586 B/s, rpm: 359.763
+    73.0    : base: 4.009 us [99.359%], band: 1.874 us?, 3.941 us, 8.018 us
+    73.0    : FM: <error>, trk: 073, sec: 10, bad: 3, *H +1
+    73.0    : Bad sector found
+    73.0    : Read operation failed
+    73.1    : frev: 40668, drift: 0.341 us, tfer: 233020 B/s, rpm: 359.764
+    73.1    : base: 4.006 us [99.754%], band: 4.017 us, 8.012 us
+    73.1    : FM: OK*, trk: 073, sec: 10, *HS
+    74.0    : frev: 40728, drift: 0.291 us, tfer: 232586 B/s, rpm: 359.766
+    74.0    : base: 3.998 us [99.849%], band: 3.986 us, 7.995 us
+    74.0    : FM: <error>, trk: 074, sec: 10, bad: 1, *H
+    74.0    : Bad sector found
+    74.0    : Read operation failed
+    74.1    : frev: 40664, drift: 0.333 us, tfer: 232783 B/s, rpm: 359.760
+    74.1    : base: 4.003 us [99.927%], band: 4.002 us, 8.006 us
+    74.1    : FM: OK*, trk: 074, sec: 10, *HS
+    75.0    : frev: 40734, drift: 0.183 us, tfer: 232586 B/s, rpm: 359.768
+    75.0    : base: 3.977 us [99.606%], band: 1.934 us?, 3.999 us, 7.954 us
+    75.0    : FM: OK*, trk: 075, sec: 10, *H
+    75.1    : frev: 40670, drift: 0.050 us, tfer: 233020 B/s, rpm: 359.766
+    75.1    : base: 4.006 us [99.876%], band: 4.003 us, 8.012 us
+    75.1    : FM: OK*, trk: 075, sec: 10, *HS
+    76.0    : frev: 40734, drift: 0.233 us, tfer: 232586 B/s, rpm: 359.768
+    76.0    : base: 4.008 us [99.849%], band: 3.998 us, 8.016 us
+    76.0    : FM: OK*, trk: 076, sec: 10, *H
+    76.1    : frev: 40666, drift: 0.941 us, tfer: 233020 B/s, rpm: 359.762
+    76.1    : base: 4.005 us [99.889%], band: 4.004 us, 8.010 us
+    76.1    : FM: OK*, trk: 076, sec: 10, *HS
+    77.0    : frev: 40738, drift: 0.666 us, tfer: 232586 B/s, rpm: 359.769
+    77.0    : base: 4.004 us [99.517%], band: 4.050 us, 8.008 us
+    77.0    : FM: OK*, trk: 077, sec: 10, *H
+    77.1    : frev: 40672, drift: 1.074 us, tfer: 233020 B/s, rpm: 359.769
+    77.1    : base: 4.001 us [99.983%], band: 4.001 us, 8.001 us
+    77.1    : FM: OK*, trk: 077, sec: 10, *HS
+    78.0    : frev: 40694, drift: 0.441 us, tfer: 232312 B/s, rpm: 359.763
+    78.0    : base: 3.999 us [99.955%], band: 4.004 us, 7.999 us, 8.811 us?
+    78.0    : FM: <error>, trk: 078, sec: 10, bad: 1, *H
+    78.0    : Bad sector found
+    78.0    : Read operation failed
+    78.1    : frev: 40674, drift: 0.499 us, tfer: 233020 B/s, rpm: 359.762
+    78.1    : base: 4.004 us [99.898%], band: 4.004 us, 8.009 us
+    78.1    : FM: OK*, trk: 078, sec: 10, *HS
+    79.0    : frev: 40721, drift: 0.117 us, tfer: 232312 B/s, rpm: 359.737
+    79.0    : base: 4.007 us [99.878%], band: 4.001 us, 8.013 us
+    79.0    : FM: <error>, trk: 079, sec: 10, bad: 2, *XH
+    79.0    : Bad sector found
+    79.0    : Read operation failed
+    79.1    : frev: 40678, drift: 0.125 us, tfer: 232783 B/s, rpm: 359.724
+    79.1    : base: 3.999 us [99.949%], band: 4.004 us, 7.998 us
+    79.1    : FM: OK*, trk: 079, sec: 10, *HS
+    80.0    : frev: 36452, drift: 0.491 us, tfer: 221573 B/s, rpm: 359.754
+    80.0    : base: 1.853 us [87.579%], band: 1.853 us
+    80.0    : FM: <unformatted>
+    80.1    : frev: 44997, drift: 0.083 us, tfer: 268216 B/s, rpm: 359.748
+    80.1    : base: 4.000 us [0.000%], band: 7.359 us?
+    80.1    : FM: <unformatted>
+    81.0    : frev: 35460, drift: 0.300 us, tfer: 216927 B/s, rpm: 359.752
+    81.0    : base: 1.804 us [87.114%], band: 1.804 us
+    81.0    : FM: <unformatted>
+    81.1    : frev: 44865, drift: 1.640 us, tfer: 267395 B/s, rpm: 359.757
+    81.1    : base: 4.000 us [0.000%], band: 7.600 us?
+    81.1    : FM: <unformatted>
+    82.0    : frev: 35143, drift: 0.150 us, tfer: 215500 B/s, rpm: 359.755
+    82.0    : base: 1.834 us [88.286%], band: 1.834 us
+    82.0    : FM: <unformatted>
+    82.1    : frev: 44897, drift: 0.100 us, tfer: 267669 B/s, rpm: 359.759
+    82.1    : base: 4.000 us [0.000%], band: 7.398 us?
+    82.1    : FM: <unformatted>
+    83.0    : frev: 36068, drift: 0.516 us, tfer: 219593 B/s, rpm: 359.758
+    83.0    : base: 3.603 us [88.444%], band: 7.206 us
+    83.0    : FM: <unformatted>
+    83.1    : frev: 44414, drift: 0.749 us, tfer: 265499 B/s, rpm: 359.758
+    83.1    : base: 3.119 us [81.148%], band: <invalid>
+    83.1    : FM: <unformatted>
+     
+    Enjoy your shiny new disk image!
+    Please consider helping us to preserve media and continue development:
+    www.softpres.org/donate
