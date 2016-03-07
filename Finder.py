@@ -21,6 +21,7 @@
 #2/9/16
 
 #Version 3.1 argparse library for handling command line arguments.
+#Version 3.1.1 Misc fixes
 
 import os
 import sys
