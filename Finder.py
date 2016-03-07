@@ -13,12 +13,10 @@
 #1/12/16
 
 #Version 2.2 Bug fix where recursively locating logs can lead to improper parent folder naming, fixed through sanitation of the directory name.
-<<<<<<< HEAD
-#1/25/16 
-=======
-#1/25/16
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
 
+#1/25/16 
+
+#1/25/16
 #Version 3.0 New binary search tree data structure for optimized search speed when checking for duplications in O(log n) time.
 #2/9/16
 
@@ -27,14 +25,8 @@
 import os
 import sys
 import csv
-<<<<<<< HEAD
 import argparse
-#import time
 
-=======
-#import time
-import argparse
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
 
 #Note: All leafs are nodes but not all nodes are leafs. Leafs do not have any children and are pointing to null or "none" for both left and right children.
 
@@ -158,18 +150,18 @@ fileObjects = []
 head = BinaryTree(0,None,None,None)
 
 def main():
-<<<<<<< HEAD
+
     #See if two arguments are supplied, else abort
     parser = argparse.ArgumentParser()
     parser.add_argument('InputDirectory',metavar='d', help='The directory of where the logs files are located.')
     parser.add_argument('OutputDirectory',metavar='o', help='The desired output directory along with desired output csv file name.')#example: python3 Finder.py /Desktop/Python Logs.csv
-=======
+
     #start = time.clock()
     #See if two arguments are supplied, else abort
     parser = argparse.ArgumentParser()
     parser.add_argument('InputDirectory',metavar='d', help='The directory of where the logs files are located.')
     parser.add_argument('OutputDirectory',metavar='o', help='The desired output directory along with desired output csv file name.')
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
+
     args = parser.parse_args()
     
     d = str(sys.argv[1])
@@ -202,12 +194,9 @@ def main():
     print("A new csv file has been made")
     report.close()
  
-<<<<<<< HEAD
 
-=======
-#end = time.clock()
-#print(end-start)
->>>>>>> 3df49c19b47bf9debb620ecad50d05ff7787bae1
+
+
 #csv creator
 def csvCreator(currentWorkingDirectory,desiredDirectory,reportName):
     changeDirectoryAnywhere(desiredDirectory)
